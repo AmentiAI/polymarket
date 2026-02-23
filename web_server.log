@@ -1,0 +1,28 @@
+🤖 Bot loop started
+
+======================================================================
+  🎯 POLYMARKET SNIPER - WEB SERVER
+  WebSocket + REST API for UI control
+======================================================================
+
+🌐 Starting server on http://0.0.0.0:8080
+📡 WebSocket available at ws://localhost:8080/socket.io/
+🎮 Control endpoints:
+   POST /api/bot/start  - Start trading
+   POST /api/bot/stop   - Stop trading
+   GET  /api/bot/status - Check status
+   GET  /api/stats      - Get statistics
+   GET  /api/trades     - Get recent trades
+
+💡 Open UI at: http://localhost:3000
+   (Make sure to run 'cd ui && npm run dev' first)
+
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'web_server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.19.59.142:8080
+Press CTRL+C to quit
+📊 Display: 100 candles, 39 signals

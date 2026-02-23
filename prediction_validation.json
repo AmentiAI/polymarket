@@ -1,0 +1,3602 @@
+[
+  {
+    "timestamp": 1771696800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 45.9,
+    "predicted_close_range": [
+      68367.52,
+      68396.82
+    ],
+    "predicted_body_range": [
+      21.58,
+      40.09
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68413.05,
+    "actual_body": 24.39999999999418,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771688400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 51.8,
+    "predicted_close_range": [
+      68636.99,
+      68685.25
+    ],
+    "predicted_body_range": [
+      35.56,
+      66.04
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68631.72,
+    "actual_body": 118.77999999999884,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771680000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      68214.91,
+      68261.16
+    ],
+    "predicted_body_range": [
+      34.08,
+      63.29
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68179.86,
+    "actual_body": 38.979999999995925,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771671600,
+    "predicted_direction": "UP",
+    "predicted_confidence": 59.1,
+    "predicted_close_range": [
+      68281.09,
+      68311.41
+    ],
+    "predicted_body_range": [
+      22.34,
+      41.49
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68195.47,
+    "actual_body": 20.080000000001746,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771663200,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      67992.39,
+      68045.33
+    ],
+    "predicted_body_range": [
+      28.51,
+      52.95
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68000.02,
+    "actual_body": 56.66000000000349,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771654800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      67783.41,
+      67805.03
+    ],
+    "predicted_body_range": [
+      15.93,
+      29.58
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67888.5,
+    "actual_body": 23.49000000000524,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771646400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 43.3,
+    "predicted_close_range": [
+      67670.83,
+      67694.27
+    ],
+    "predicted_body_range": [
+      17.27,
+      32.08
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67631.94,
+    "actual_body": 35.830000000001746,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771638000,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 42.9,
+    "predicted_close_range": [
+      67942.58,
+      67991.32
+    ],
+    "predicted_body_range": [
+      26.24,
+      48.74
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67976.28,
+    "actual_body": 9.720000000001164,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771629600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67954.25,
+      67996.73
+    ],
+    "predicted_body_range": [
+      22.87,
+      42.48
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67975.19,
+    "actual_body": 15.319999999992433,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771621200,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      67688.41,
+      67752.67
+    ],
+    "predicted_body_range": [
+      34.6,
+      64.26
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67664.57,
+    "actual_body": 85.8299999999872,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771612800,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      67780.57,
+      67877.79
+    ],
+    "predicted_body_range": [
+      52.35,
+      97.22
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67791.66,
+    "actual_body": 87.66000000000349,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771604400,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 52.6,
+    "predicted_close_range": [
+      67262.15,
+      67368.28
+    ],
+    "predicted_body_range": [
+      78.2,
+      145.23
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67833.57,
+    "actual_body": 209.57000000000698,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771596000,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 38.1,
+    "predicted_close_range": [
+      66735.32,
+      66875.2
+    ],
+    "predicted_body_range": [
+      103.07,
+      191.41
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66878.01,
+    "actual_body": 76.38999999999942,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771587600,
+    "predicted_direction": "UP",
+    "predicted_confidence": 67.1,
+    "predicted_close_range": [
+      67537.49,
+      67630.39
+    ],
+    "predicted_body_range": [
+      68.45,
+      127.12
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67443.55,
+    "actual_body": 265.179999999993,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771579200,
+    "predicted_direction": "UP",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      68160.0,
+      68204.11
+    ],
+    "predicted_body_range": [
+      32.5,
+      60.36
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68151.84,
+    "actual_body": 41.0399999999936,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771570800,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67800.83,
+      67844.17
+    ],
+    "predicted_body_range": [
+      23.34,
+      43.35
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67830.18,
+    "actual_body": 17.29000000000815,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771562400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 47.3,
+    "predicted_close_range": [
+      67284.23,
+      67352.83
+    ],
+    "predicted_body_range": [
+      50.55,
+      93.87
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67302.0,
+    "actual_body": 2.5800000000017462,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771554000,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 53.0,
+    "predicted_close_range": [
+      67176.44,
+      67215.03
+    ],
+    "predicted_body_range": [
+      28.43,
+      52.8
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67225.99,
+    "actual_body": 69.68999999998778,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771545600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 42.9,
+    "predicted_close_range": [
+      67150.66,
+      67232.78
+    ],
+    "predicted_body_range": [
+      44.22,
+      82.13
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66967.76,
+    "actual_body": 35.970000000001164,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771537200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      66850.26,
+      66899.83
+    ],
+    "predicted_body_range": [
+      36.52,
+      67.83
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66958.0,
+    "actual_body": 45.35000000000582,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771528800,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      66858.96,
+      66940.56
+    ],
+    "predicted_body_range": [
+      43.94,
+      81.6
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67049.99,
+    "actual_body": 82.93000000000757,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771520400,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 67.1,
+    "predicted_close_range": [
+      66457.05,
+      66605.91
+    ],
+    "predicted_body_range": [
+      109.69,
+      203.71
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66396.35,
+    "actual_body": 102.82000000000698,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771512000,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 39.8,
+    "predicted_close_range": [
+      66290.59,
+      66412.66
+    ],
+    "predicted_body_range": [
+      89.95,
+      167.05
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66260.56,
+    "actual_body": 155.55999999999767,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771503600,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 44.8,
+    "predicted_close_range": [
+      66548.34,
+      66618.67
+    ],
+    "predicted_body_range": [
+      51.82,
+      96.24
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66637.31,
+    "actual_body": 132.63000000000466,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771495200,
+    "predicted_direction": "UP",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      66885.64,
+      66924.82
+    ],
+    "predicted_body_range": [
+      28.87,
+      53.61
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66760.35,
+    "actual_body": 75.65999999998894,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771486800,
+    "predicted_direction": "UP",
+    "predicted_confidence": 47.8,
+    "predicted_close_range": [
+      67235.81,
+      67285.52
+    ],
+    "predicted_body_range": [
+      36.62,
+      68.02
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67193.46,
+    "actual_body": 4.530000000013388,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771478400,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 50.6,
+    "predicted_close_range": [
+      66725.53,
+      66760.96
+    ],
+    "predicted_body_range": [
+      26.11,
+      48.48
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66735.37,
+    "actual_body": 143.4100000000035,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771470000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 52.4,
+    "predicted_close_range": [
+      66814.16,
+      66855.11
+    ],
+    "predicted_body_range": [
+      30.18,
+      56.04
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66872.75,
+    "actual_body": 37.55000000000291,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771461600,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 47.8,
+    "predicted_close_range": [
+      66350.44,
+      66397.12
+    ],
+    "predicted_body_range": [
+      34.4,
+      63.88
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66532.0,
+    "actual_body": 42.60000000000582,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771453200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      66349.93,
+      66385.6
+    ],
+    "predicted_body_range": [
+      26.28,
+      48.81
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66290.83,
+    "actual_body": 70.45999999999185,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771444800,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      66222.11,
+      66297.17
+    ],
+    "predicted_body_range": [
+      40.42,
+      75.07
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66264.5,
+    "actual_body": 87.35000000000582,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771436400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 40.0,
+    "predicted_close_range": [
+      67137.61,
+      67233.09
+    ],
+    "predicted_body_range": [
+      70.36,
+      130.66
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67096.7,
+    "actual_body": 101.0,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771428000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 38.1,
+    "predicted_close_range": [
+      67481.95,
+      67611.56
+    ],
+    "predicted_body_range": [
+      95.5,
+      177.36
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67362.0,
+    "actual_body": 32.50999999999476,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771719900,
+    "predicted_direction": "UP",
+    "predicted_confidence": 63.3,
+    "predicted_close_range": [
+      67898.2,
+      67928.06
+    ],
+    "predicted_body_range": [
+      22.0,
+      40.86
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67856.03,
+    "actual_body": 11.380000000004657,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771711500,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 47.2,
+    "predicted_close_range": [
+      68240.83,
+      68282.61
+    ],
+    "predicted_body_range": [
+      30.78,
+      57.17
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68338.43,
+    "actual_body": 63.120000000009895,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771703100,
+    "predicted_direction": "UP",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      68557.73,
+      68596.33
+    ],
+    "predicted_body_range": [
+      28.44,
+      52.82
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68602.0,
+    "actual_body": 25.14999999999418,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771694700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 60.9,
+    "predicted_close_range": [
+      68304.05,
+      68339.07
+    ],
+    "predicted_body_range": [
+      25.81,
+      47.92
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68283.38,
+    "actual_body": 18.5,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771686300,
+    "predicted_direction": "UP",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      68564.54,
+      68623.34
+    ],
+    "predicted_body_range": [
+      43.33,
+      80.46
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68481.79,
+    "actual_body": 41.48999999999069,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771677900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      68138.98,
+      68186.07
+    ],
+    "predicted_body_range": [
+      34.7,
+      64.44
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68126.0,
+    "actual_body": 94.69999999999709,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771669500,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      68192.45,
+      68234.99
+    ],
+    "predicted_body_range": [
+      22.91,
+      42.54
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68184.94,
+    "actual_body": 6.970000000001164,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771661100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 61.1,
+    "predicted_close_range": [
+      67888.75,
+      67926.96
+    ],
+    "predicted_body_range": [
+      28.15,
+      52.28
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67893.8,
+    "actual_body": 32.120000000009895,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771652700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      67819.27,
+      67843.14
+    ],
+    "predicted_body_range": [
+      17.59,
+      32.66
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67823.27,
+    "actual_body": 35.26999999998952,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771644300,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 53.0,
+    "predicted_close_range": [
+      67724.36,
+      67756.49
+    ],
+    "predicted_body_range": [
+      23.67,
+      43.96
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67800.29,
+    "actual_body": 12.440000000002328,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771635900,
+    "predicted_direction": "UP",
+    "predicted_confidence": 52.4,
+    "predicted_close_range": [
+      67882.17,
+      67907.57
+    ],
+    "predicted_body_range": [
+      18.72,
+      34.76
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67908.81,
+    "actual_body": 24.279999999998836,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771627500,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      68056.25,
+      68100.01
+    ],
+    "predicted_body_range": [
+      23.57,
+      43.77
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68013.4,
+    "actual_body": 49.63999999999942,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771619100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      67619.1,
+      67663.05
+    ],
+    "predicted_body_range": [
+      32.38,
+      60.14
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67580.1,
+    "actual_body": 82.64999999999418,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771610700,
+    "predicted_direction": "UP",
+    "predicted_confidence": 52.4,
+    "predicted_close_range": [
+      67585.92,
+      67665.78
+    ],
+    "predicted_body_range": [
+      58.85,
+      109.29
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67590.85,
+    "actual_body": 62.23999999999069,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771602300,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.6,
+    "predicted_close_range": [
+      67498.24,
+      67667.66
+    ],
+    "predicted_body_range": [
+      91.23,
+      169.43
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67274.2,
+    "actual_body": 44.220000000001164,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771593900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 51.8,
+    "predicted_close_range": [
+      66326.23,
+      66461.68
+    ],
+    "predicted_body_range": [
+      99.81,
+      185.35
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67202.01,
+    "actual_body": 200.67999999999302,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771585500,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 44.7,
+    "predicted_close_range": [
+      67731.92,
+      67803.6
+    ],
+    "predicted_body_range": [
+      52.82,
+      98.09
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67957.41,
+    "actual_body": 37.15000000000873,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771577100,
+    "predicted_direction": "UP",
+    "predicted_confidence": 73.5,
+    "predicted_close_range": [
+      67898.49,
+      67948.71
+    ],
+    "predicted_body_range": [
+      37.01,
+      68.72
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67802.01,
+    "actual_body": 9.139999999999418,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771568700,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67792.71,
+      67837.59
+    ],
+    "predicted_body_range": [
+      24.17,
+      44.89
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67721.02,
+    "actual_body": 12.330000000001746,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771560300,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 50.6,
+    "predicted_close_range": [
+      67081.86,
+      67148.66
+    ],
+    "predicted_body_range": [
+      49.22,
+      91.41
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67327.12,
+    "actual_body": 5.129999999990105,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771551900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 66.5,
+    "predicted_close_range": [
+      67233.32,
+      67267.36
+    ],
+    "predicted_body_range": [
+      25.08,
+      46.58
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67244.01,
+    "actual_body": 86.4600000000064,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771543500,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      66914.79,
+      66961.18
+    ],
+    "predicted_body_range": [
+      34.18,
+      63.48
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67006.28,
+    "actual_body": 17.860000000000582,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771535100,
+    "predicted_direction": "UP",
+    "predicted_confidence": 60.5,
+    "predicted_close_range": [
+      67060.0,
+      67108.84
+    ],
+    "predicted_body_range": [
+      35.98,
+      66.83
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67114.0,
+    "actual_body": 10.710000000006403,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771526700,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 47.4,
+    "predicted_close_range": [
+      66985.82,
+      67075.16
+    ],
+    "predicted_body_range": [
+      48.11,
+      89.35
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67028.43,
+    "actual_body": 19.95999999999185,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771518300,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 55.0,
+    "predicted_close_range": [
+      66309.79,
+      66443.6
+    ],
+    "predicted_body_range": [
+      98.6,
+      183.11
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66188.26,
+    "actual_body": 53.91000000000349,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771509900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 38.1,
+    "predicted_close_range": [
+      65738.96,
+      65873.05
+    ],
+    "predicted_body_range": [
+      98.8,
+      183.49
+    ],
+    "actual_direction": "UP",
+    "actual_close": 65963.03,
+    "actual_body": 100.88999999999942,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771501500,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      66460.54,
+      66531.5
+    ],
+    "predicted_body_range": [
+      38.21,
+      70.96
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66692.87,
+    "actual_body": 19.569999999992433,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771493100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 47.2,
+    "predicted_close_range": [
+      66969.66,
+      67025.86
+    ],
+    "predicted_body_range": [
+      41.42,
+      76.91
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67133.86,
+    "actual_body": 23.479999999995925,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771484700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67128.5,
+      67163.05
+    ],
+    "predicted_body_range": [
+      25.46,
+      47.28
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67071.92,
+    "actual_body": 28.40000000000873,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771476300,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      66773.24,
+      66832.26
+    ],
+    "predicted_body_range": [
+      31.78,
+      59.03
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66828.56,
+    "actual_body": 12.509999999994761,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771467900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 51.8,
+    "predicted_close_range": [
+      66618.04,
+      66671.1
+    ],
+    "predicted_body_range": [
+      39.1,
+      72.61
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66939.51,
+    "actual_body": 23.5,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771459500,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 53.0,
+    "predicted_close_range": [
+      66416.98,
+      66470.3
+    ],
+    "predicted_body_range": [
+      39.29,
+      72.97
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66550.84,
+    "actual_body": 107.0399999999936,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771451100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      66283.78,
+      66326.88
+    ],
+    "predicted_body_range": [
+      31.76,
+      58.98
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66465.22,
+    "actual_body": 26.779999999998836,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771442700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 47.8,
+    "predicted_close_range": [
+      65888.39,
+      65954.19
+    ],
+    "predicted_body_range": [
+      48.48,
+      90.04
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66274.49,
+    "actual_body": 6.570000000006985,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771434300,
+    "predicted_direction": "UP",
+    "predicted_confidence": 38.1,
+    "predicted_close_range": [
+      67218.96,
+      67305.42
+    ],
+    "predicted_body_range": [
+      63.71,
+      118.31
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67308.93,
+    "actual_body": 103.0399999999936,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771726200,
+    "predicted_direction": "UP",
+    "predicted_confidence": 40.0,
+    "predicted_close_range": [
+      68116.2,
+      68235.34
+    ],
+    "predicted_body_range": [
+      87.79,
+      163.03
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68215.41,
+    "actual_body": 13.529999999998836,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771717800,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67999.67,
+      68042.29
+    ],
+    "predicted_body_range": [
+      22.95,
+      42.63
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67980.39,
+    "actual_body": 11.059999999997672,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771709400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      68306.43,
+      68351.35
+    ],
+    "predicted_body_range": [
+      33.1,
+      61.47
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68336.09,
+    "actual_body": 9.460000000006403,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771701000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      68600.59,
+      68634.54
+    ],
+    "predicted_body_range": [
+      25.01,
+      46.46
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68591.34,
+    "actual_body": 52.65000000000873,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771692600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      68284.55,
+      68323.45
+    ],
+    "predicted_body_range": [
+      20.94,
+      38.89
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68350.49,
+    "actual_body": 36.810000000012224,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771684200,
+    "predicted_direction": "UP",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      68559.54,
+      68608.04
+    ],
+    "predicted_body_range": [
+      35.74,
+      66.37
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68540.81,
+    "actual_body": 108.00999999999476,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771675800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 38.6,
+    "predicted_close_range": [
+      67950.78,
+      67985.23
+    ],
+    "predicted_body_range": [
+      25.38,
+      47.14
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67989.96,
+    "actual_body": 20.40999999998894,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771667400,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      68204.53,
+      68244.27
+    ],
+    "predicted_body_range": [
+      21.4,
+      39.73
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68145.44,
+    "actual_body": 60.529999999998836,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771659000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67844.24,
+      67871.85
+    ],
+    "predicted_body_range": [
+      20.34,
+      37.78
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67866.2,
+    "actual_body": 10.190000000002328,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771650600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67835.23,
+      67870.73
+    ],
+    "predicted_body_range": [
+      19.11,
+      35.5
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67848.19,
+    "actual_body": 6.2299999999959255,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771642200,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67765.18,
+      67827.16
+    ],
+    "predicted_body_range": [
+      33.37,
+      61.98
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68008.5,
+    "actual_body": 4.55000000000291,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771633800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 54.3,
+    "predicted_close_range": [
+      67802.8,
+      67830.47
+    ],
+    "predicted_body_range": [
+      20.39,
+      37.87
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67897.86,
+    "actual_body": 30.130000000004657,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771625400,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67946.67,
+      68005.35
+    ],
+    "predicted_body_range": [
+      31.6,
+      58.69
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67659.4,
+    "actual_body": 87.32000000000698,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771617000,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      67660.12,
+      67729.2
+    ],
+    "predicted_body_range": [
+      37.2,
+      69.08
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67656.84,
+    "actual_body": 73.83999999999651,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771608600,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 47.8,
+    "predicted_close_range": [
+      67127.46,
+      67208.24
+    ],
+    "predicted_body_range": [
+      59.52,
+      110.54
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67029.7,
+    "actual_body": 2.0100000000093132,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771600200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 38.1,
+    "predicted_close_range": [
+      67110.78,
+      67246.2
+    ],
+    "predicted_body_range": [
+      99.78,
+      185.31
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66889.91,
+    "actual_body": 486.33000000000175,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771591800,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.9,
+    "predicted_close_range": [
+      67134.92,
+      67328.34
+    ],
+    "predicted_body_range": [
+      104.15,
+      193.42
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67471.13,
+    "actual_body": 26.479999999995925,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771583400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 47.8,
+    "predicted_close_range": [
+      68188.89,
+      68260.93
+    ],
+    "predicted_body_range": [
+      53.08,
+      98.58
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68232.41,
+    "actual_body": 30.59999999999127,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771575000,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 54.2,
+    "predicted_close_range": [
+      67837.64,
+      67883.75
+    ],
+    "predicted_body_range": [
+      33.97,
+      63.09
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67869.99,
+    "actual_body": 31.44000000000233,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771566600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      67737.78,
+      67796.56
+    ],
+    "predicted_body_range": [
+      31.66,
+      58.79
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67829.8,
+    "actual_body": 146.2399999999907,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771558200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      67279.53,
+      67312.74
+    ],
+    "predicted_body_range": [
+      24.47,
+      45.44
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67382.88,
+    "actual_body": 31.379999999990105,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771549800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 53.7,
+    "predicted_close_range": [
+      67116.78,
+      67153.13
+    ],
+    "predicted_body_range": [
+      26.78,
+      49.74
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67336.0,
+    "actual_body": 16.0,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771541400,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 48.9,
+    "predicted_close_range": [
+      66814.12,
+      66862.78
+    ],
+    "predicted_body_range": [
+      35.86,
+      66.59
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66922.63,
+    "actual_body": 98.99000000000524,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771533000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 54.2,
+    "predicted_close_range": [
+      66959.01,
+      67005.09
+    ],
+    "predicted_body_range": [
+      33.95,
+      63.05
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67004.01,
+    "actual_body": 64.01999999998952,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771524600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      66758.98,
+      66884.92
+    ],
+    "predicted_body_range": [
+      67.81,
+      125.94
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66639.09,
+    "actual_body": 241.51999999998952,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771516200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 55.0,
+    "predicted_close_range": [
+      65943.45,
+      66068.3
+    ],
+    "predicted_body_range": [
+      92.0,
+      170.85
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66295.91,
+    "actual_body": 19.429999999993015,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771507800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 40.0,
+    "predicted_close_range": [
+      65783.63,
+      65916.6
+    ],
+    "predicted_body_range": [
+      97.98,
+      181.96
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66252.0,
+    "actual_body": 72.77000000000407,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771499400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 63.9,
+    "predicted_close_range": [
+      66928.93,
+      66979.16
+    ],
+    "predicted_body_range": [
+      37.02,
+      68.74
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66919.87,
+    "actual_body": 12.14999999999418,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771491000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      66909.04,
+      66969.87
+    ],
+    "predicted_body_range": [
+      44.82,
+      83.24
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66920.35,
+    "actual_body": 21.660000000003492,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771482600,
+    "predicted_direction": "UP",
+    "predicted_confidence": 54.3,
+    "predicted_close_range": [
+      67115.12,
+      67143.05
+    ],
+    "predicted_body_range": [
+      20.58,
+      38.22
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67138.07,
+    "actual_body": 38.76999999998952,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771474200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 66.5,
+    "predicted_close_range": [
+      66816.29,
+      66854.82
+    ],
+    "predicted_body_range": [
+      28.39,
+      52.72
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66985.58,
+    "actual_body": 30.860000000000582,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771465800,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      66762.63,
+      66837.37
+    ],
+    "predicted_body_range": [
+      40.25,
+      74.75
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66833.53,
+    "actual_body": 25.539999999993597,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771697700,
+    "predicted_direction": "UP",
+    "predicted_confidence": 54.1,
+    "predicted_close_range": [
+      68500.79,
+      68528.84
+    ],
+    "predicted_body_range": [
+      20.67,
+      38.39
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68497.89,
+    "actual_body": 90.27000000000407,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771689300,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 82.1,
+    "predicted_close_range": [
+      68362.71,
+      68405.31
+    ],
+    "predicted_body_range": [
+      31.39,
+      58.3
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68615.0,
+    "actual_body": 4.19999999999709,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771680900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      68154.65,
+      68200.07
+    ],
+    "predicted_body_range": [
+      33.46,
+      62.15
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68209.23,
+    "actual_body": 11.360000000000582,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771672500,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      68141.94,
+      68173.85
+    ],
+    "predicted_body_range": [
+      23.51,
+      43.67
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68246.01,
+    "actual_body": 23.90000000000873,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771664100,
+    "predicted_direction": "UP",
+    "predicted_confidence": 47.2,
+    "predicted_close_range": [
+      67992.59,
+      68029.73
+    ],
+    "predicted_body_range": [
+      27.37,
+      50.83
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68055.03,
+    "actual_body": 36.169999999998254,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771655700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 47.8,
+    "predicted_close_range": [
+      67725.8,
+      67744.2
+    ],
+    "predicted_body_range": [
+      13.56,
+      25.18
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67759.58,
+    "actual_body": 53.41000000000349,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771647300,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 61.1,
+    "predicted_close_range": [
+      67686.45,
+      67708.77
+    ],
+    "predicted_body_range": [
+      16.45,
+      30.55
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67623.76,
+    "actual_body": 38.44000000000233,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771638900,
+    "predicted_direction": "UP",
+    "predicted_confidence": 62.7,
+    "predicted_close_range": [
+      68014.11,
+      68056.35
+    ],
+    "predicted_body_range": [
+      31.12,
+      57.8
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67951.24,
+    "actual_body": 15.709999999991851,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771630500,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      67943.56,
+      67981.78
+    ],
+    "predicted_body_range": [
+      20.58,
+      38.22
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67914.01,
+    "actual_body": 61.48000000001048,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771622100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 38.6,
+    "predicted_close_range": [
+      67680.05,
+      67728.28
+    ],
+    "predicted_body_range": [
+      35.54,
+      66.0
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67731.99,
+    "actual_body": 11.440000000002328,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771613700,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67748.48,
+      67833.16
+    ],
+    "predicted_body_range": [
+      45.6,
+      84.68
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67924.21,
+    "actual_body": 95.90000000000873,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771605300,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.9,
+    "predicted_close_range": [
+      67589.91,
+      67724.57
+    ],
+    "predicted_body_range": [
+      72.51,
+      134.67
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67518.22,
+    "actual_body": 110.83000000000175,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771596900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 38.1,
+    "predicted_close_range": [
+      66780.41,
+      66923.59
+    ],
+    "predicted_body_range": [
+      105.5,
+      195.93
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66767.21,
+    "actual_body": 159.52999999999884,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771588500,
+    "predicted_direction": "UP",
+    "predicted_confidence": 57.1,
+    "predicted_close_range": [
+      67466.73,
+      67584.1
+    ],
+    "predicted_body_range": [
+      86.48,
+      160.61
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67318.41,
+    "actual_body": 184.86000000000058,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771580100,
+    "predicted_direction": "UP",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      68164.19,
+      68211.08
+    ],
+    "predicted_body_range": [
+      34.55,
+      64.16
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68153.92,
+    "actual_body": 10.169999999998254,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771571700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 51.9,
+    "predicted_close_range": [
+      67888.21,
+      67932.36
+    ],
+    "predicted_body_range": [
+      32.53,
+      60.42
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67850.75,
+    "actual_body": 28.25,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771563300,
+    "predicted_direction": "UP",
+    "predicted_confidence": 57.6,
+    "predicted_close_range": [
+      67258.94,
+      67335.04
+    ],
+    "predicted_body_range": [
+      56.08,
+      104.14
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67264.83,
+    "actual_body": 5.869999999995343,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771554900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 66.5,
+    "predicted_close_range": [
+      67246.06,
+      67289.24
+    ],
+    "predicted_body_range": [
+      31.82,
+      59.09
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67291.91,
+    "actual_body": 62.669999999998254,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771546500,
+    "predicted_direction": "UP",
+    "predicted_confidence": 35.9,
+    "predicted_close_range": [
+      67408.0,
+      67459.61
+    ],
+    "predicted_body_range": [
+      38.03,
+      70.62
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67168.01,
+    "actual_body": 23.710000000006403,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771538100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      66772.86,
+      66815.35
+    ],
+    "predicted_body_range": [
+      31.3,
+      58.14
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66916.51,
+    "actual_body": 1.570000000006985,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771529700,
+    "predicted_direction": "UP",
+    "predicted_confidence": 52.4,
+    "predicted_close_range": [
+      66852.41,
+      66902.8
+    ],
+    "predicted_body_range": [
+      37.12,
+      68.95
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66737.65,
+    "actual_body": 162.10000000000582,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771521300,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 55.0,
+    "predicted_close_range": [
+      66465.51,
+      66579.47
+    ],
+    "predicted_body_range": [
+      83.97,
+      155.94
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66971.17,
+    "actual_body": 310.3999999999942,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771512900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      66215.56,
+      66336.46
+    ],
+    "predicted_body_range": [
+      89.09,
+      165.44
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66421.2,
+    "actual_body": 36.44999999999709,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771504500,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 50.0,
+    "predicted_close_range": [
+      66446.01,
+      66526.37
+    ],
+    "predicted_body_range": [
+      59.22,
+      109.97
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66642.17,
+    "actual_body": 2.4199999999982538,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771496100,
+    "predicted_direction": "UP",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      66888.15,
+      66934.13
+    ],
+    "predicted_body_range": [
+      33.88,
+      62.92
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66920.74,
+    "actual_body": 49.54000000000815,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771487700,
+    "predicted_direction": "UP",
+    "predicted_confidence": 38.6,
+    "predicted_close_range": [
+      67119.55,
+      67172.08
+    ],
+    "predicted_body_range": [
+      38.71,
+      71.89
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67206.45,
+    "actual_body": 11.040000000008149,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771479300,
+    "predicted_direction": "UP",
+    "predicted_confidence": 50.0,
+    "predicted_close_range": [
+      66823.3,
+      66862.23
+    ],
+    "predicted_body_range": [
+      28.68,
+      53.27
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66789.34,
+    "actual_body": 15.339999999996508,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771470900,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 47.4,
+    "predicted_close_range": [
+      66933.05,
+      66979.83
+    ],
+    "predicted_body_range": [
+      25.19,
+      46.79
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66885.8,
+    "actual_body": 86.72000000000116,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771462500,
+    "predicted_direction": "UP",
+    "predicted_confidence": 47.2,
+    "predicted_close_range": [
+      66604.11,
+      66656.16
+    ],
+    "predicted_body_range": [
+      38.35,
+      71.22
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66446.49,
+    "actual_body": 32.169999999998254,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771454100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 53.0,
+    "predicted_close_range": [
+      66388.18,
+      66433.33
+    ],
+    "predicted_body_range": [
+      33.27,
+      61.78
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66399.29,
+    "actual_body": 0.5399999999935972,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771445700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 52.6,
+    "predicted_close_range": [
+      66220.19,
+      66279.68
+    ],
+    "predicted_body_range": [
+      43.84,
+      81.41
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66239.08,
+    "actual_body": 20.55000000000291,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771437300,
+    "predicted_direction": "UP",
+    "predicted_confidence": 47.8,
+    "predicted_close_range": [
+      67156.63,
+      67264.19
+    ],
+    "predicted_body_range": [
+      79.26,
+      147.19
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67187.39,
+    "actual_body": 84.9600000000064,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771428900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 57.6,
+    "predicted_close_range": [
+      67681.54,
+      67790.82
+    ],
+    "predicted_body_range": [
+      80.52,
+      149.54
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68109.96,
+    "actual_body": 675.7700000000041,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771720800,
+    "predicted_direction": "UP",
+    "predicted_confidence": 76.3,
+    "predicted_close_range": [
+      67899.85,
+      67932.8
+    ],
+    "predicted_body_range": [
+      24.28,
+      45.09
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67846.01,
+    "actual_body": 41.19000000000233,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771712400,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 44.7,
+    "predicted_close_range": [
+      68172.23,
+      68211.05
+    ],
+    "predicted_body_range": [
+      28.61,
+      53.13
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68318.0,
+    "actual_body": 20.0,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771704000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 38.6,
+    "predicted_close_range": [
+      68503.71,
+      68543.17
+    ],
+    "predicted_body_range": [
+      29.07,
+      53.99
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68504.14,
+    "actual_body": 39.36999999999534,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771695600,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.8,
+    "predicted_close_range": [
+      68418.19,
+      68448.32
+    ],
+    "predicted_body_range": [
+      22.2,
+      41.23
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68425.6,
+    "actual_body": 73.63000000000466,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771687200,
+    "predicted_direction": "UP",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      68546.45,
+      68601.94
+    ],
+    "predicted_body_range": [
+      40.89,
+      75.94
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68528.62,
+    "actual_body": 14.270000000004075,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771678800,
+    "predicted_direction": "UP",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      68164.6,
+      68211.59
+    ],
+    "predicted_body_range": [
+      34.62,
+      64.3
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68160.0,
+    "actual_body": 43.419999999998254,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771670400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 54.2,
+    "predicted_close_range": [
+      68175.36,
+      68205.37
+    ],
+    "predicted_body_range": [
+      22.12,
+      41.07
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68230.84,
+    "actual_body": 17.119999999995343,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771662000,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      67934.97,
+      67974.41
+    ],
+    "predicted_body_range": [
+      29.06,
+      53.97
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67964.02,
+    "actual_body": 22.99000000000524,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771653600,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 68.2,
+    "predicted_close_range": [
+      67885.01,
+      67908.62
+    ],
+    "predicted_body_range": [
+      17.4,
+      32.31
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67877.91,
+    "actual_body": 25.980000000010477,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771645200,
+    "predicted_direction": "UP",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67656.42,
+      67679.39
+    ],
+    "predicted_body_range": [
+      16.93,
+      31.44
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67616.93,
+    "actual_body": 151.38000000000466,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771636800,
+    "predicted_direction": "UP",
+    "predicted_confidence": 77.0,
+    "predicted_close_range": [
+      67892.57,
+      67929.0
+    ],
+    "predicted_body_range": [
+      26.84,
+      49.85
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67869.97,
+    "actual_body": 2.8500000000058208,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771628400,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      68004.77,
+      68048.03
+    ],
+    "predicted_body_range": [
+      23.29,
+      43.26
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68116.5,
+    "actual_body": 38.36999999999534,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771620000,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      67611.84,
+      67663.22
+    ],
+    "predicted_body_range": [
+      37.86,
+      70.31
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67734.0,
+    "actual_body": 54.75,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771611600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 48.1,
+    "predicted_close_range": [
+      67819.21,
+      67928.81
+    ],
+    "predicted_body_range": [
+      59.02,
+      109.61
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67583.78,
+    "actual_body": 27.289999999993597,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771603200,
+    "predicted_direction": "UP",
+    "predicted_confidence": 56.4,
+    "predicted_close_range": [
+      67775.45,
+      67912.04
+    ],
+    "predicted_body_range": [
+      100.65,
+      186.91
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67737.81,
+    "actual_body": 154.86000000000058,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771594800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 67.1,
+    "predicted_close_range": [
+      66765.54,
+      66897.21
+    ],
+    "predicted_body_range": [
+      97.02,
+      180.18
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66624.09,
+    "actual_body": 112.50999999999476,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771586400,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 44.7,
+    "predicted_close_range": [
+      67704.97,
+      67789.92
+    ],
+    "predicted_body_range": [
+      62.59,
+      116.24
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67813.3,
+    "actual_body": 16.70999999999185,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771578000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      68147.28,
+      68188.72
+    ],
+    "predicted_body_range": [
+      30.54,
+      56.71
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68181.3,
+    "actual_body": 301.3099999999977,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771569600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      67867.4,
+      67906.68
+    ],
+    "predicted_body_range": [
+      21.15,
+      39.27
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67753.28,
+    "actual_body": 61.86999999999534,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771561200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 62.7,
+    "predicted_close_range": [
+      67191.42,
+      67254.99
+    ],
+    "predicted_body_range": [
+      46.84,
+      86.99
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67218.58,
+    "actual_body": 45.30999999999767,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771552800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 66.5,
+    "predicted_close_range": [
+      67227.09,
+      67266.74
+    ],
+    "predicted_body_range": [
+      29.21,
+      54.25
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67338.08,
+    "actual_body": 58.169999999998254,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771544400,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 51.8,
+    "predicted_close_range": [
+      66912.7,
+      66967.57
+    ],
+    "predicted_body_range": [
+      40.43,
+      75.09
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66965.49,
+    "actual_body": 12.779999999998836,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771536000,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 39.8,
+    "predicted_close_range": [
+      66939.89,
+      66986.81
+    ],
+    "predicted_body_range": [
+      34.57,
+      64.2
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67000.0,
+    "actual_body": 42.00999999999476,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771527600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      66858.53,
+      66961.89
+    ],
+    "predicted_body_range": [
+      55.65,
+      103.36
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67047.31,
+    "actual_body": 16.80999999999767,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771519200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 40.0,
+    "predicted_close_range": [
+      66226.4,
+      66371.76
+    ],
+    "predicted_body_range": [
+      107.11,
+      198.92
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66416.11,
+    "actual_body": 76.80000000000291,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771510800,
+    "predicted_direction": "UP",
+    "predicted_confidence": 44.7,
+    "predicted_close_range": [
+      65790.04,
+      65933.65
+    ],
+    "predicted_body_range": [
+      105.82,
+      196.52
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66000.68,
+    "actual_body": 78.22999999999593,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771502400,
+    "predicted_direction": "UP",
+    "predicted_confidence": 36.0,
+    "predicted_close_range": [
+      66587.77,
+      66651.91
+    ],
+    "predicted_body_range": [
+      47.26,
+      87.77
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66435.95,
+    "actual_body": 60.080000000001746,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771494000,
+    "predicted_direction": "UP",
+    "predicted_confidence": 38.6,
+    "predicted_close_range": [
+      66870.93,
+      66913.39
+    ],
+    "predicted_body_range": [
+      31.29,
+      58.11
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67075.63,
+    "actual_body": 29.05999999999767,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771485600,
+    "predicted_direction": "UP",
+    "predicted_confidence": 48.9,
+    "predicted_close_range": [
+      67229.83,
+      67272.65
+    ],
+    "predicted_body_range": [
+      31.55,
+      58.6
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67208.06,
+    "actual_body": 32.279999999998836,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771477200,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 50.6,
+    "predicted_close_range": [
+      66715.35,
+      66757.9
+    ],
+    "predicted_body_range": [
+      31.35,
+      58.23
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66794.56,
+    "actual_body": 8.180000000007567,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771468800,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 49.4,
+    "predicted_close_range": [
+      66627.4,
+      66674.98
+    ],
+    "predicted_body_range": [
+      35.06,
+      65.11
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66662.72,
+    "actual_body": 27.929999999993015,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771460400,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      66375.97,
+      66427.77
+    ],
+    "predicted_body_range": [
+      38.17,
+      70.89
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66433.01,
+    "actual_body": 56.93000000000757,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771452000,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 51.8,
+    "predicted_close_range": [
+      66198.66,
+      66242.02
+    ],
+    "predicted_body_range": [
+      31.95,
+      59.34
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66317.52,
+    "actual_body": 25.239999999990687,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771443600,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      66111.61,
+      66190.87
+    ],
+    "predicted_body_range": [
+      42.68,
+      79.25
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66163.2,
+    "actual_body": 184.77000000000407,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771435200,
+    "predicted_direction": "UP",
+    "predicted_confidence": 62.7,
+    "predicted_close_range": [
+      67184.13,
+      67276.75
+    ],
+    "predicted_body_range": [
+      68.25,
+      126.75
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67153.69,
+    "actual_body": 33.419999999998254,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771727100,
+    "predicted_direction": "UP",
+    "predicted_confidence": 40.0,
+    "predicted_close_range": [
+      68042.34,
+      68168.12
+    ],
+    "predicted_body_range": [
+      92.68,
+      172.12
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68056.09,
+    "actual_body": 16.220000000001164,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771718700,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 50.7,
+    "predicted_close_range": [
+      67971.63,
+      68016.57
+    ],
+    "predicted_body_range": [
+      24.2,
+      44.94
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68030.52,
+    "actual_body": 9.55000000000291,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771710300,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      68318.99,
+      68363.54
+    ],
+    "predicted_body_range": [
+      32.82,
+      60.96
+    ],
+    "actual_direction": "UP",
+    "actual_close": 68312.64,
+    "actual_body": 22.75999999999476,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771701900,
+    "predicted_direction": "UP",
+    "predicted_confidence": 48.9,
+    "predicted_close_range": [
+      68629.83,
+      68669.01
+    ],
+    "predicted_body_range": [
+      28.87,
+      53.62
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68573.68,
+    "actual_body": 14.39000000001397,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771693500,
+    "predicted_direction": "UP",
+    "predicted_confidence": 50.0,
+    "predicted_close_range": [
+      68249.25,
+      68278.5
+    ],
+    "predicted_body_range": [
+      21.55,
+      40.03
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68277.4,
+    "actual_body": 26.610000000000582,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771685100,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      68413.14,
+      68486.88
+    ],
+    "predicted_body_range": [
+      39.71,
+      73.75
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68480.42,
+    "actual_body": 61.25999999999476,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771676700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 51.8,
+    "predicted_close_range": [
+      67976.92,
+      68013.2
+    ],
+    "predicted_body_range": [
+      26.73,
+      49.65
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67968.0,
+    "actual_body": 29.919999999998254,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771668300,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      68132.07,
+      68169.07
+    ],
+    "predicted_body_range": [
+      19.92,
+      37.0
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68206.92,
+    "actual_body": 17.479999999995925,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771659900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 53.0,
+    "predicted_close_range": [
+      67807.09,
+      67842.84
+    ],
+    "predicted_body_range": [
+      26.34,
+      48.92
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67842.33,
+    "actual_body": 8.25,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771651500,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 37.3,
+    "predicted_close_range": [
+      67784.73,
+      67814.41
+    ],
+    "predicted_body_range": [
+      21.87,
+      40.62
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67860.94,
+    "actual_body": 7.970000000001164,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771643100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 36.7,
+    "predicted_close_range": [
+      67708.77,
+      67740.21
+    ],
+    "predicted_body_range": [
+      23.17,
+      43.03
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67704.19,
+    "actual_body": 91.97000000000116,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771634700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 53.0,
+    "predicted_close_range": [
+      67804.98,
+      67831.3
+    ],
+    "predicted_body_range": [
+      19.39,
+      36.02
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67861.29,
+    "actual_body": 20.610000000000582,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771626300,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      67994.28,
+      68040.1
+    ],
+    "predicted_body_range": [
+      24.67,
+      45.82
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67936.48,
+    "actual_body": 39.520000000004075,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771617900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 66.5,
+    "predicted_close_range": [
+      67673.87,
+      67720.02
+    ],
+    "predicted_body_range": [
+      34.0,
+      63.15
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67766.77,
+    "actual_body": 72.11000000000058,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771609500,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      67562.94,
+      67663.8
+    ],
+    "predicted_body_range": [
+      54.31,
+      100.86
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67520.43,
+    "actual_body": 282.429999999993,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771601100,
+    "predicted_direction": "UP",
+    "predicted_confidence": 63.0,
+    "predicted_close_range": [
+      67177.84,
+      67310.75
+    ],
+    "predicted_body_range": [
+      97.94,
+      181.88
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67453.71,
+    "actual_body": 157.6200000000099,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771592700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 69.9,
+    "predicted_close_range": [
+      67053.94,
+      67186.03
+    ],
+    "predicted_body_range": [
+      97.33,
+      180.75
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67247.96,
+    "actual_body": 16.320000000006985,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771584300,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 47.3,
+    "predicted_close_range": [
+      67847.29,
+      67921.61
+    ],
+    "predicted_body_range": [
+      54.76,
+      101.7
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 68050.64,
+    "actual_body": 111.7100000000064,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771575900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 59.1,
+    "predicted_close_range": [
+      67749.09,
+      67792.85
+    ],
+    "predicted_body_range": [
+      32.25,
+      59.89
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67870.0,
+    "actual_body": 30.74000000000524,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771567500,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 54.3,
+    "predicted_close_range": [
+      67819.16,
+      67858.77
+    ],
+    "predicted_body_range": [
+      29.18,
+      54.2
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67845.79,
+    "actual_body": 78.61000000000058,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771559100,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 65.2,
+    "predicted_close_range": [
+      67292.84,
+      67346.49
+    ],
+    "predicted_body_range": [
+      39.53,
+      73.41
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 67317.13,
+    "actual_body": 7.8399999999965075,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771550700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 66.5,
+    "predicted_close_range": [
+      67261.61,
+      67294.71
+    ],
+    "predicted_body_range": [
+      24.39,
+      45.29
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67209.61,
+    "actual_body": 43.08999999999651,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771542300,
+    "predicted_direction": "UP",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      66943.79,
+      66994.24
+    ],
+    "predicted_body_range": [
+      37.18,
+      69.04
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66866.0,
+    "actual_body": 14.710000000006403,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771533900,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 35.6,
+    "predicted_close_range": [
+      67091.28,
+      67133.54
+    ],
+    "predicted_body_range": [
+      31.14,
+      57.83
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67083.6,
+    "actual_body": 141.56000000001222,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771525500,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.7,
+    "predicted_close_range": [
+      66769.0,
+      66868.74
+    ],
+    "predicted_body_range": [
+      53.7,
+      99.74
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66903.7,
+    "actual_body": 81.75,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771517100,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.6,
+    "predicted_close_range": [
+      66232.3,
+      66414.68
+    ],
+    "predicted_body_range": [
+      98.21,
+      182.38
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66143.62,
+    "actual_body": 29.319999999992433,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771508700,
+    "predicted_direction": "DOWN",
+    "predicted_confidence": 38.1,
+    "predicted_close_range": [
+      65734.56,
+      65865.23
+    ],
+    "predicted_body_range": [
+      96.28,
+      178.81
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 65811.56,
+    "actual_body": 154.02999999999884,
+    "direction_correct": true,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771500300,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 42.9,
+    "predicted_close_range": [
+      66659.77,
+      66736.73
+    ],
+    "predicted_body_range": [
+      41.45,
+      76.97
+    ],
+    "actual_direction": "DOWN",
+    "actual_close": 66840.92,
+    "actual_body": 69.49000000000524,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771491900,
+    "predicted_direction": "UP",
+    "predicted_confidence": 36.8,
+    "predicted_close_range": [
+      67034.45,
+      67093.44
+    ],
+    "predicted_body_range": [
+      43.47,
+      80.73
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67006.7,
+    "actual_body": 120.06999999999243,
+    "direction_correct": true,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771483500,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      67125.97,
+      67174.27
+    ],
+    "predicted_body_range": [
+      26.01,
+      48.31
+    ],
+    "actual_direction": "UP",
+    "actual_close": 67138.0,
+    "actual_body": 33.169999999998254,
+    "direction_correct": false,
+    "close_in_range": true
+  },
+  {
+    "timestamp": 1771475100,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 45.0,
+    "predicted_close_range": [
+      66901.41,
+      66952.49
+    ],
+    "predicted_body_range": [
+      27.51,
+      51.08
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66888.17,
+    "actual_body": 19.160000000003492,
+    "direction_correct": false,
+    "close_in_range": false
+  },
+  {
+    "timestamp": 1771466700,
+    "predicted_direction": "NEUTRAL",
+    "predicted_confidence": 43.5,
+    "predicted_close_range": [
+      66782.57,
+      66856.91
+    ],
+    "predicted_body_range": [
+      40.03,
+      74.34
+    ],
+    "actual_direction": "UP",
+    "actual_close": 66832.0,
+    "actual_body": 32.00999999999476,
+    "direction_correct": false,
+    "close_in_range": true
+  }
+]

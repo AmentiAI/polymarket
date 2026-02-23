@@ -1,0 +1,5042 @@
+{
+  "metadata": {
+    "total_predictions": 499,
+    "accuracy": 52.705410821643284,
+    "total_pnl": -758.6055121349242,
+    "avg_pnl": -1.5202515273244974,
+    "date_range": {
+      "start": "2026-02-20T09:15:00+00:00",
+      "end": "2026-02-22T02:45:00+00:00"
+    }
+  },
+  "by_direction": {
+    "up": {
+      "total": 274,
+      "correct": 148,
+      "accuracy": 54.01459854014598
+    },
+    "down": {
+      "total": 225,
+      "correct": 115,
+      "accuracy": 51.11111111111111
+    }
+  },
+  "by_confidence": {
+    "50-60%": {
+      "total": 192,
+      "correct": 100,
+      "accuracy": 52.083333333333336,
+      "pnl": -101.81818181818201
+    },
+    "60-70%": {
+      "total": 235,
+      "correct": 120,
+      "accuracy": 51.06382978723404,
+      "pnl": -503.84615384615404
+    },
+    "70-80%": {
+      "total": 66,
+      "correct": 39,
+      "accuracy": 59.09090909090909,
+      "pnl": -139.99999999999997
+    },
+    "80%+": {
+      "total": 6,
+      "correct": 4,
+      "accuracy": 66.66666666666666,
+      "pnl": -12.941176470588232
+    }
+  },
+  "predictions": [
+    {
+      "timestamp": 1771578900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68132.01,
+      "price_close": 68110.79
+    },
+    {
+      "timestamp": 1771579200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68110.8,
+      "price_close": 68151.84
+    },
+    {
+      "timestamp": 1771579500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68151.84,
+      "price_close": 68200.6
+    },
+    {
+      "timestamp": 1771579800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68200.6,
+      "price_close": 68143.75
+    },
+    {
+      "timestamp": 1771580100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68143.75,
+      "price_close": 68153.92
+    },
+    {
+      "timestamp": 1771580400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68153.92,
+      "price_close": 68135.42
+    },
+    {
+      "timestamp": 1771580700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68135.42,
+      "price_close": 68146.92
+    },
+    {
+      "timestamp": 1771581000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68146.93,
+      "price_close": 68186.31
+    },
+    {
+      "timestamp": 1771581300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68186.3,
+      "price_close": 68218.85
+    },
+    {
+      "timestamp": 1771581600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68218.85,
+      "price_close": 68189.7
+    },
+    {
+      "timestamp": 1771581900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68189.71,
+      "price_close": 68222.27
+    },
+    {
+      "timestamp": 1771582200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68222.28,
+      "price_close": 68182.18
+    },
+    {
+      "timestamp": 1771582500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68182.19,
+      "price_close": 68235.35
+    },
+    {
+      "timestamp": 1771582800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68235.35,
+      "price_close": 68136.82
+    },
+    {
+      "timestamp": 1771583100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68136.83,
+      "price_close": 68263.0
+    },
+    {
+      "timestamp": 1771583400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68263.01,
+      "price_close": 68232.41
+    },
+    {
+      "timestamp": 1771583700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68232.41,
+      "price_close": 68217.04
+    },
+    {
+      "timestamp": 1771584000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68217.04,
+      "price_close": 68162.35
+    },
+    {
+      "timestamp": 1771584300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68162.35,
+      "price_close": 68050.64
+    },
+    {
+      "timestamp": 1771584600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68050.65,
+      "price_close": 67979.99
+    },
+    {
+      "timestamp": 1771584900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67980.0,
+      "price_close": 67948.99
+    },
+    {
+      "timestamp": 1771585200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67948.99,
+      "price_close": 67920.26
+    },
+    {
+      "timestamp": 1771585500000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67920.26,
+      "price_close": 67957.41
+    },
+    {
+      "timestamp": 1771585800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67957.41,
+      "price_close": 67869.99
+    },
+    {
+      "timestamp": 1771586100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67869.99,
+      "price_close": 67830.01
+    },
+    {
+      "timestamp": 1771586400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67830.01,
+      "price_close": 67813.3
+    },
+    {
+      "timestamp": 1771586700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67813.3,
+      "price_close": 67874.58
+    },
+    {
+      "timestamp": 1771587000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67874.59,
+      "price_close": 67821.21
+    },
+    {
+      "timestamp": 1771587300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67821.21,
+      "price_close": 67708.72
+    },
+    {
+      "timestamp": 1771587600000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67708.73,
+      "price_close": 67443.55
+    },
+    {
+      "timestamp": 1771587900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67443.56,
+      "price_close": 67475.27
+    },
+    {
+      "timestamp": 1771588200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67475.27,
+      "price_close": 67503.27
+    },
+    {
+      "timestamp": 1771588500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67503.27,
+      "price_close": 67318.41
+    },
+    {
+      "timestamp": 1771588800000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67318.41,
+      "price_close": 67393.33
+    },
+    {
+      "timestamp": 1771589100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67393.33,
+      "price_close": 67423.49
+    },
+    {
+      "timestamp": 1771589400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67423.48,
+      "price_close": 67477.54
+    },
+    {
+      "timestamp": 1771589700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67477.54,
+      "price_close": 67334.96
+    },
+    {
+      "timestamp": 1771590000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67334.96,
+      "price_close": 67436.08
+    },
+    {
+      "timestamp": 1771590300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67436.08,
+      "price_close": 67323.72
+    },
+    {
+      "timestamp": 1771590600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67323.72,
+      "price_close": 67395.21
+    },
+    {
+      "timestamp": 1771590900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67395.21,
+      "price_close": 67406.75
+    },
+    {
+      "timestamp": 1771591200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67406.76,
+      "price_close": 67475.31
+    },
+    {
+      "timestamp": 1771591500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67475.31,
+      "price_close": 67497.6
+    },
+    {
+      "timestamp": 1771591800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67497.61,
+      "price_close": 67471.13
+    },
+    {
+      "timestamp": 1771592100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67471.14,
+      "price_close": 67541.77
+    },
+    {
+      "timestamp": 1771592400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67541.78,
+      "price_close": 67231.63
+    },
+    {
+      "timestamp": 1771592700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67231.64,
+      "price_close": 67247.96
+    },
+    {
+      "timestamp": 1771593000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67247.96,
+      "price_close": 67143.24
+    },
+    {
+      "timestamp": 1771593300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67143.24,
+      "price_close": 67234.69
+    },
+    {
+      "timestamp": 1771593600000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67234.69,
+      "price_close": 67001.34
+    },
+    {
+      "timestamp": 1771593900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67001.33,
+      "price_close": 67202.01
+    },
+    {
+      "timestamp": 1771594200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67202.01,
+      "price_close": 66881.02
+    },
+    {
+      "timestamp": 1771594500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 66881.02,
+      "price_close": 66511.58
+    },
+    {
+      "timestamp": 1771594800000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 66511.58,
+      "price_close": 66624.09
+    },
+    {
+      "timestamp": 1771595100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 66624.09,
+      "price_close": 66785.48
+    },
+    {
+      "timestamp": 1771595400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 66785.49,
+      "price_close": 66945.72
+    },
+    {
+      "timestamp": 1771595700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 66945.72,
+      "price_close": 66801.62
+    },
+    {
+      "timestamp": 1771596000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 66801.62,
+      "price_close": 66878.01
+    },
+    {
+      "timestamp": 1771596300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 66878.01,
+      "price_close": 66987.92
+    },
+    {
+      "timestamp": 1771596600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 66987.91,
+      "price_close": 66926.73
+    },
+    {
+      "timestamp": 1771596900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 66926.74,
+      "price_close": 66767.21
+    },
+    {
+      "timestamp": 1771597200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 66767.22,
+      "price_close": 66940.58
+    },
+    {
+      "timestamp": 1771597500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 66940.59,
+      "price_close": 66976.34
+    },
+    {
+      "timestamp": 1771597800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 66976.34,
+      "price_close": 67051.1
+    },
+    {
+      "timestamp": 1771598100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67051.11,
+      "price_close": 67110.6
+    },
+    {
+      "timestamp": 1771598400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67110.61,
+      "price_close": 67065.3
+    },
+    {
+      "timestamp": 1771598700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67065.3,
+      "price_close": 66970.33
+    },
+    {
+      "timestamp": 1771599000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 66970.34,
+      "price_close": 67066.3
+    },
+    {
+      "timestamp": 1771599300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67066.3,
+      "price_close": 67069.65
+    },
+    {
+      "timestamp": 1771599600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67069.65,
+      "price_close": 67436.76
+    },
+    {
+      "timestamp": 1771599900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67436.76,
+      "price_close": 67376.25
+    },
+    {
+      "timestamp": 1771600200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67376.24,
+      "price_close": 66889.91
+    },
+    {
+      "timestamp": 1771600500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 85,
+      "correct": true,
+      "pnl": 1.764705882352942,
+      "price_open": 66889.9,
+      "price_close": 67093.94
+    },
+    {
+      "timestamp": 1771600800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67093.93,
+      "price_close": 67296.09
+    },
+    {
+      "timestamp": 1771601100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67296.09,
+      "price_close": 67453.71
+    },
+    {
+      "timestamp": 1771601400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67453.71,
+      "price_close": 67032.27
+    },
+    {
+      "timestamp": 1771601700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67032.26,
+      "price_close": 67128.87
+    },
+    {
+      "timestamp": 1771602000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67128.88,
+      "price_close": 67229.99
+    },
+    {
+      "timestamp": 1771602300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67229.98,
+      "price_close": 67274.2
+    },
+    {
+      "timestamp": 1771602600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67274.2,
+      "price_close": 67389.58
+    },
+    {
+      "timestamp": 1771602900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67389.58,
+      "price_close": 67582.95
+    },
+    {
+      "timestamp": 1771603200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67582.95,
+      "price_close": 67737.81
+    },
+    {
+      "timestamp": 1771603500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67737.82,
+      "price_close": 67733.95
+    },
+    {
+      "timestamp": 1771603800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67733.94,
+      "price_close": 67725.13
+    },
+    {
+      "timestamp": 1771604100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67725.13,
+      "price_close": 67624.0
+    },
+    {
+      "timestamp": 1771604400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67624.0,
+      "price_close": 67833.57
+    },
+    {
+      "timestamp": 1771604700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67833.56,
+      "price_close": 67316.87
+    },
+    {
+      "timestamp": 1771605000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 85,
+      "correct": true,
+      "pnl": 1.764705882352942,
+      "price_open": 67316.86,
+      "price_close": 67407.38
+    },
+    {
+      "timestamp": 1771605300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67407.39,
+      "price_close": 67518.22
+    },
+    {
+      "timestamp": 1771605600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67518.22,
+      "price_close": 67495.45
+    },
+    {
+      "timestamp": 1771605900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67495.45,
+      "price_close": 67657.24
+    },
+    {
+      "timestamp": 1771606200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67657.23,
+      "price_close": 67702.0
+    },
+    {
+      "timestamp": 1771606500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67702.0,
+      "price_close": 67795.47
+    },
+    {
+      "timestamp": 1771606800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67795.48,
+      "price_close": 67693.89
+    },
+    {
+      "timestamp": 1771607100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67693.9,
+      "price_close": 67322.19
+    },
+    {
+      "timestamp": 1771607400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67322.19,
+      "price_close": 67067.03
+    },
+    {
+      "timestamp": 1771607700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67067.04,
+      "price_close": 67131.22
+    },
+    {
+      "timestamp": 1771608000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67131.21,
+      "price_close": 67096.54
+    },
+    {
+      "timestamp": 1771608300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67096.54,
+      "price_close": 67031.71
+    },
+    {
+      "timestamp": 1771608600000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67031.71,
+      "price_close": 67029.7
+    },
+    {
+      "timestamp": 1771608900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67029.71,
+      "price_close": 67303.19
+    },
+    {
+      "timestamp": 1771609200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67303.19,
+      "price_close": 67238.0
+    },
+    {
+      "timestamp": 1771609500000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67238.0,
+      "price_close": 67520.43
+    },
+    {
+      "timestamp": 1771609800000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67520.44,
+      "price_close": 67587.5
+    },
+    {
+      "timestamp": 1771610100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67587.5,
+      "price_close": 67613.37
+    },
+    {
+      "timestamp": 1771610400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67613.38,
+      "price_close": 67653.08
+    },
+    {
+      "timestamp": 1771610700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67653.09,
+      "price_close": 67590.85
+    },
+    {
+      "timestamp": 1771611000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67590.85,
+      "price_close": 67574.97
+    },
+    {
+      "timestamp": 1771611300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67574.97,
+      "price_close": 67556.49
+    },
+    {
+      "timestamp": 1771611600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67556.49,
+      "price_close": 67583.78
+    },
+    {
+      "timestamp": 1771611900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67583.78,
+      "price_close": 67664.75
+    },
+    {
+      "timestamp": 1771612200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67664.56,
+      "price_close": 67874.01
+    },
+    {
+      "timestamp": 1771612500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67874.01,
+      "price_close": 67704.0
+    },
+    {
+      "timestamp": 1771612800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67704.0,
+      "price_close": 67791.66
+    },
+    {
+      "timestamp": 1771613100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67791.67,
+      "price_close": 67782.39
+    },
+    {
+      "timestamp": 1771613400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67782.4,
+      "price_close": 67829.18
+    },
+    {
+      "timestamp": 1771613700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67828.31,
+      "price_close": 67924.21
+    },
+    {
+      "timestamp": 1771614000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67924.22,
+      "price_close": 67707.99
+    },
+    {
+      "timestamp": 1771614300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67707.99,
+      "price_close": 67790.82
+    },
+    {
+      "timestamp": 1771614600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67790.81,
+      "price_close": 67709.07
+    },
+    {
+      "timestamp": 1771614900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67709.08,
+      "price_close": 67724.75
+    },
+    {
+      "timestamp": 1771615200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67724.75,
+      "price_close": 67729.09
+    },
+    {
+      "timestamp": 1771615500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67729.09,
+      "price_close": 67625.23
+    },
+    {
+      "timestamp": 1771615800000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67625.23,
+      "price_close": 67782.69
+    },
+    {
+      "timestamp": 1771616100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67782.68,
+      "price_close": 67762.85
+    },
+    {
+      "timestamp": 1771616400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67762.85,
+      "price_close": 67610.6
+    },
+    {
+      "timestamp": 1771616700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67610.6,
+      "price_close": 67583.01
+    },
+    {
+      "timestamp": 1771617000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67583.0,
+      "price_close": 67656.84
+    },
+    {
+      "timestamp": 1771617300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67656.85,
+      "price_close": 67646.03
+    },
+    {
+      "timestamp": 1771617600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67646.03,
+      "price_close": 67694.66
+    },
+    {
+      "timestamp": 1771617900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67694.66,
+      "price_close": 67766.77
+    },
+    {
+      "timestamp": 1771618200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67766.77,
+      "price_close": 67816.34
+    },
+    {
+      "timestamp": 1771618500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67816.33,
+      "price_close": 67737.02
+    },
+    {
+      "timestamp": 1771618800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67737.02,
+      "price_close": 67662.75
+    },
+    {
+      "timestamp": 1771619100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67662.75,
+      "price_close": 67580.1
+    },
+    {
+      "timestamp": 1771619400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67580.09,
+      "price_close": 67574.01
+    },
+    {
+      "timestamp": 1771619700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67574.01,
+      "price_close": 67679.24
+    },
+    {
+      "timestamp": 1771620000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67679.25,
+      "price_close": 67734.0
+    },
+    {
+      "timestamp": 1771620300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67734.0,
+      "price_close": 67694.37
+    },
+    {
+      "timestamp": 1771620600000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67694.38,
+      "price_close": 67682.15
+    },
+    {
+      "timestamp": 1771620900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67682.15,
+      "price_close": 67750.4
+    },
+    {
+      "timestamp": 1771621200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67750.4,
+      "price_close": 67664.57
+    },
+    {
+      "timestamp": 1771621500000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67664.56,
+      "price_close": 67775.21
+    },
+    {
+      "timestamp": 1771621800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67775.2,
+      "price_close": 67720.54
+    },
+    {
+      "timestamp": 1771622100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67720.55,
+      "price_close": 67731.99
+    },
+    {
+      "timestamp": 1771622400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67731.99,
+      "price_close": 67721.85
+    },
+    {
+      "timestamp": 1771622700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67721.86,
+      "price_close": 67746.05
+    },
+    {
+      "timestamp": 1771623000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67746.05,
+      "price_close": 67736.28
+    },
+    {
+      "timestamp": 1771623300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67736.29,
+      "price_close": 67799.7
+    },
+    {
+      "timestamp": 1771623600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67799.71,
+      "price_close": 67764.0
+    },
+    {
+      "timestamp": 1771623900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67764.01,
+      "price_close": 67801.82
+    },
+    {
+      "timestamp": 1771624200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67801.82,
+      "price_close": 67796.31
+    },
+    {
+      "timestamp": 1771624500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67796.32,
+      "price_close": 67825.87
+    },
+    {
+      "timestamp": 1771624800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67825.87,
+      "price_close": 67788.81
+    },
+    {
+      "timestamp": 1771625100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67788.81,
+      "price_close": 67746.72
+    },
+    {
+      "timestamp": 1771625400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67746.72,
+      "price_close": 67659.4
+    },
+    {
+      "timestamp": 1771625700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67659.41,
+      "price_close": 67777.03
+    },
+    {
+      "timestamp": 1771626000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67777.04,
+      "price_close": 67976.01
+    },
+    {
+      "timestamp": 1771626300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67976.0,
+      "price_close": 67936.48
+    },
+    {
+      "timestamp": 1771626600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67936.49,
+      "price_close": 67979.67
+    },
+    {
+      "timestamp": 1771626900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67979.67,
+      "price_close": 68017.19
+    },
+    {
+      "timestamp": 1771627200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68017.18,
+      "price_close": 67963.75
+    },
+    {
+      "timestamp": 1771627500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67963.76,
+      "price_close": 68013.4
+    },
+    {
+      "timestamp": 1771627800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68013.41,
+      "price_close": 68049.95
+    },
+    {
+      "timestamp": 1771628100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68049.96,
+      "price_close": 68078.13
+    },
+    {
+      "timestamp": 1771628400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68078.13,
+      "price_close": 68116.5
+    },
+    {
+      "timestamp": 1771628700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68116.5,
+      "price_close": 68072.3
+    },
+    {
+      "timestamp": 1771629000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68072.29,
+      "price_close": 68026.4
+    },
+    {
+      "timestamp": 1771629300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68026.41,
+      "price_close": 67990.5
+    },
+    {
+      "timestamp": 1771629600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67990.51,
+      "price_close": 67975.19
+    },
+    {
+      "timestamp": 1771629900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67975.19,
+      "price_close": 67996.48
+    },
+    {
+      "timestamp": 1771630200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67996.47,
+      "price_close": 67975.49
+    },
+    {
+      "timestamp": 1771630500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67975.49,
+      "price_close": 67914.01
+    },
+    {
+      "timestamp": 1771630800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67914.01,
+      "price_close": 67975.91
+    },
+    {
+      "timestamp": 1771631100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67975.91,
+      "price_close": 67962.67
+    },
+    {
+      "timestamp": 1771631400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67962.67,
+      "price_close": 68016.97
+    },
+    {
+      "timestamp": 1771631700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68016.97,
+      "price_close": 68020.01
+    },
+    {
+      "timestamp": 1771632000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68020.0,
+      "price_close": 68010.6
+    },
+    {
+      "timestamp": 1771632300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68010.6,
+      "price_close": 67976.86
+    },
+    {
+      "timestamp": 1771632600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67976.85,
+      "price_close": 68017.36
+    },
+    {
+      "timestamp": 1771632900000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68017.36,
+      "price_close": 67951.25
+    },
+    {
+      "timestamp": 1771633200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67951.25,
+      "price_close": 67964.32
+    },
+    {
+      "timestamp": 1771633500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67964.31,
+      "price_close": 67927.99
+    },
+    {
+      "timestamp": 1771633800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67927.99,
+      "price_close": 67897.86
+    },
+    {
+      "timestamp": 1771634100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67897.87,
+      "price_close": 67910.41
+    },
+    {
+      "timestamp": 1771634400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67910.41,
+      "price_close": 67840.67
+    },
+    {
+      "timestamp": 1771634700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67840.68,
+      "price_close": 67861.29
+    },
+    {
+      "timestamp": 1771635000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67861.28,
+      "price_close": 67870.45
+    },
+    {
+      "timestamp": 1771635300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67870.45,
+      "price_close": 67841.0
+    },
+    {
+      "timestamp": 1771635600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67841.0,
+      "price_close": 67884.54
+    },
+    {
+      "timestamp": 1771635900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67884.53,
+      "price_close": 67908.81
+    },
+    {
+      "timestamp": 1771636200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 85,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67908.8,
+      "price_close": 67928.82
+    },
+    {
+      "timestamp": 1771636500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 85,
+      "correct": true,
+      "pnl": 1.764705882352942,
+      "price_open": 67928.81,
+      "price_close": 67872.81
+    },
+    {
+      "timestamp": 1771636800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67872.82,
+      "price_close": 67869.97
+    },
+    {
+      "timestamp": 1771637100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67869.98,
+      "price_close": 67856.59
+    },
+    {
+      "timestamp": 1771637400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67856.6,
+      "price_close": 67879.15
+    },
+    {
+      "timestamp": 1771637700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67879.15,
+      "price_close": 67985.99
+    },
+    {
+      "timestamp": 1771638000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67986.0,
+      "price_close": 67976.28
+    },
+    {
+      "timestamp": 1771638300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67976.27,
+      "price_close": 67994.48
+    },
+    {
+      "timestamp": 1771638600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67994.49,
+      "price_close": 67966.95
+    },
+    {
+      "timestamp": 1771638900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67966.95,
+      "price_close": 67951.24
+    },
+    {
+      "timestamp": 1771639200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67951.25,
+      "price_close": 67934.0
+    },
+    {
+      "timestamp": 1771639500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 85,
+      "correct": true,
+      "pnl": 1.764705882352942,
+      "price_open": 67933.99,
+      "price_close": 67998.55
+    },
+    {
+      "timestamp": 1771639800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67998.55,
+      "price_close": 67989.01
+    },
+    {
+      "timestamp": 1771640100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67989.01,
+      "price_close": 67987.31
+    },
+    {
+      "timestamp": 1771640400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67987.32,
+      "price_close": 68033.15
+    },
+    {
+      "timestamp": 1771640700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68033.15,
+      "price_close": 68055.21
+    },
+    {
+      "timestamp": 1771641000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68055.22,
+      "price_close": 68058.27
+    },
+    {
+      "timestamp": 1771641300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68058.28,
+      "price_close": 68074.46
+    },
+    {
+      "timestamp": 1771641600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68074.47,
+      "price_close": 68077.87
+    },
+    {
+      "timestamp": 1771641900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68077.86,
+      "price_close": 68003.95
+    },
+    {
+      "timestamp": 1771642200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68003.95,
+      "price_close": 68008.5
+    },
+    {
+      "timestamp": 1771642500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68008.51,
+      "price_close": 68001.05
+    },
+    {
+      "timestamp": 1771642800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68001.04,
+      "price_close": 67796.17
+    },
+    {
+      "timestamp": 1771643100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67796.16,
+      "price_close": 67704.19
+    },
+    {
+      "timestamp": 1771643400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67704.2,
+      "price_close": 67761.42
+    },
+    {
+      "timestamp": 1771643700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67761.42,
+      "price_close": 67751.8
+    },
+    {
+      "timestamp": 1771644000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67751.81,
+      "price_close": 67812.73
+    },
+    {
+      "timestamp": 1771644300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67812.73,
+      "price_close": 67800.29
+    },
+    {
+      "timestamp": 1771644600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67800.3,
+      "price_close": 67808.58
+    },
+    {
+      "timestamp": 1771644900000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67808.57,
+      "price_close": 67768.32
+    },
+    {
+      "timestamp": 1771645200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67768.31,
+      "price_close": 67616.93
+    },
+    {
+      "timestamp": 1771645500000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67616.93,
+      "price_close": 67634.71
+    },
+    {
+      "timestamp": 1771645800000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67634.7,
+      "price_close": 67647.95
+    },
+    {
+      "timestamp": 1771646100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67647.95,
+      "price_close": 67667.77
+    },
+    {
+      "timestamp": 1771646400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67667.77,
+      "price_close": 67631.94
+    },
+    {
+      "timestamp": 1771646700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67631.95,
+      "price_close": 67686.17
+    },
+    {
+      "timestamp": 1771647000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67686.17,
+      "price_close": 67662.19
+    },
+    {
+      "timestamp": 1771647300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67662.2,
+      "price_close": 67623.76
+    },
+    {
+      "timestamp": 1771647600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67623.76,
+      "price_close": 67671.35
+    },
+    {
+      "timestamp": 1771647900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67671.35,
+      "price_close": 67717.0
+    },
+    {
+      "timestamp": 1771648200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67717.01,
+      "price_close": 67707.26
+    },
+    {
+      "timestamp": 1771648500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67707.27,
+      "price_close": 67697.04
+    },
+    {
+      "timestamp": 1771648800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67697.04,
+      "price_close": 67691.82
+    },
+    {
+      "timestamp": 1771649100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67691.83,
+      "price_close": 67716.66
+    },
+    {
+      "timestamp": 1771649400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67716.66,
+      "price_close": 67749.2
+    },
+    {
+      "timestamp": 1771649700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67749.19,
+      "price_close": 67816.97
+    },
+    {
+      "timestamp": 1771650000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67816.98,
+      "price_close": 67845.22
+    },
+    {
+      "timestamp": 1771650300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67845.23,
+      "price_close": 67841.97
+    },
+    {
+      "timestamp": 1771650600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67841.96,
+      "price_close": 67848.19
+    },
+    {
+      "timestamp": 1771650900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67848.2,
+      "price_close": 67855.04
+    },
+    {
+      "timestamp": 1771651200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67855.04,
+      "price_close": 67852.98
+    },
+    {
+      "timestamp": 1771651500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67852.97,
+      "price_close": 67860.94
+    },
+    {
+      "timestamp": 1771651800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67860.93,
+      "price_close": 67875.38
+    },
+    {
+      "timestamp": 1771652100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67875.38,
+      "price_close": 67825.35
+    },
+    {
+      "timestamp": 1771652400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67825.35,
+      "price_close": 67858.55
+    },
+    {
+      "timestamp": 1771652700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67858.54,
+      "price_close": 67823.27
+    },
+    {
+      "timestamp": 1771653000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67823.27,
+      "price_close": 67867.86
+    },
+    {
+      "timestamp": 1771653300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67867.86,
+      "price_close": 67851.93
+    },
+    {
+      "timestamp": 1771653600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67851.93,
+      "price_close": 67877.91
+    },
+    {
+      "timestamp": 1771653900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67877.91,
+      "price_close": 67867.81
+    },
+    {
+      "timestamp": 1771654200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67867.8,
+      "price_close": 67917.32
+    },
+    {
+      "timestamp": 1771654500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67917.32,
+      "price_close": 67911.99
+    },
+    {
+      "timestamp": 1771654800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67911.99,
+      "price_close": 67888.5
+    },
+    {
+      "timestamp": 1771655100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67888.5,
+      "price_close": 67873.26
+    },
+    {
+      "timestamp": 1771655400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 85,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67873.25,
+      "price_close": 67812.99
+    },
+    {
+      "timestamp": 1771655700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67812.99,
+      "price_close": 67759.58
+    },
+    {
+      "timestamp": 1771656000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67759.58,
+      "price_close": 67783.71
+    },
+    {
+      "timestamp": 1771656300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67783.71,
+      "price_close": 67750.98
+    },
+    {
+      "timestamp": 1771656600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67750.98,
+      "price_close": 67778.83
+    },
+    {
+      "timestamp": 1771656900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67778.83,
+      "price_close": 67793.38
+    },
+    {
+      "timestamp": 1771657200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67793.39,
+      "price_close": 67762.33
+    },
+    {
+      "timestamp": 1771657500000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67762.33,
+      "price_close": 67829.99
+    },
+    {
+      "timestamp": 1771657800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67830.0,
+      "price_close": 67825.45
+    },
+    {
+      "timestamp": 1771658100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67825.45,
+      "price_close": 67838.93
+    },
+    {
+      "timestamp": 1771658400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67838.94,
+      "price_close": 67850.02
+    },
+    {
+      "timestamp": 1771658700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67850.02,
+      "price_close": 67856.01
+    },
+    {
+      "timestamp": 1771659000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67856.01,
+      "price_close": 67866.2
+    },
+    {
+      "timestamp": 1771659300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67866.2,
+      "price_close": 67869.31
+    },
+    {
+      "timestamp": 1771659600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67869.31,
+      "price_close": 67834.07
+    },
+    {
+      "timestamp": 1771659900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67834.08,
+      "price_close": 67842.33
+    },
+    {
+      "timestamp": 1771660200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67842.33,
+      "price_close": 67845.78
+    },
+    {
+      "timestamp": 1771660500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67845.77,
+      "price_close": 67856.01
+    },
+    {
+      "timestamp": 1771660800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67856.01,
+      "price_close": 67861.69
+    },
+    {
+      "timestamp": 1771661100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67861.68,
+      "price_close": 67893.8
+    },
+    {
+      "timestamp": 1771661400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67893.81,
+      "price_close": 67910.49
+    },
+    {
+      "timestamp": 1771661700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67910.49,
+      "price_close": 67941.03
+    },
+    {
+      "timestamp": 1771662000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67941.03,
+      "price_close": 67964.02
+    },
+    {
+      "timestamp": 1771662300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67964.01,
+      "price_close": 67980.85
+    },
+    {
+      "timestamp": 1771662600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67980.84,
+      "price_close": 67988.94
+    },
+    {
+      "timestamp": 1771662900000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67988.94,
+      "price_close": 67943.37
+    },
+    {
+      "timestamp": 1771663200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67943.36,
+      "price_close": 68000.02
+    },
+    {
+      "timestamp": 1771663500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68000.02,
+      "price_close": 67989.95
+    },
+    {
+      "timestamp": 1771663800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67989.95,
+      "price_close": 68018.86
+    },
+    {
+      "timestamp": 1771664100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68018.86,
+      "price_close": 68055.03
+    },
+    {
+      "timestamp": 1771664400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68055.04,
+      "price_close": 68035.42
+    },
+    {
+      "timestamp": 1771664700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68035.42,
+      "price_close": 67978.9
+    },
+    {
+      "timestamp": 1771665000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67978.91,
+      "price_close": 68000.27
+    },
+    {
+      "timestamp": 1771665300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68000.27,
+      "price_close": 68116.51
+    },
+    {
+      "timestamp": 1771665600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68116.51,
+      "price_close": 68272.31
+    },
+    {
+      "timestamp": 1771665900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68272.31,
+      "price_close": 68235.09
+    },
+    {
+      "timestamp": 1771666200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68235.1,
+      "price_close": 68209.84
+    },
+    {
+      "timestamp": 1771666500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68209.84,
+      "price_close": 68224.77
+    },
+    {
+      "timestamp": 1771666800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68224.78,
+      "price_close": 68194.9
+    },
+    {
+      "timestamp": 1771667100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68194.9,
+      "price_close": 68205.97
+    },
+    {
+      "timestamp": 1771667400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68205.97,
+      "price_close": 68145.44
+    },
+    {
+      "timestamp": 1771667700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68145.45,
+      "price_close": 68147.53
+    },
+    {
+      "timestamp": 1771668000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68147.54,
+      "price_close": 68224.4
+    },
+    {
+      "timestamp": 1771668300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68224.4,
+      "price_close": 68206.92
+    },
+    {
+      "timestamp": 1771668600000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68206.92,
+      "price_close": 68182.25
+    },
+    {
+      "timestamp": 1771668900000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68182.25,
+      "price_close": 68150.57
+    },
+    {
+      "timestamp": 1771669200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68150.58,
+      "price_close": 68191.91
+    },
+    {
+      "timestamp": 1771669500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68191.91,
+      "price_close": 68184.94
+    },
+    {
+      "timestamp": 1771669800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68184.95,
+      "price_close": 68181.83
+    },
+    {
+      "timestamp": 1771670100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68181.82,
+      "price_close": 68213.72
+    },
+    {
+      "timestamp": 1771670400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68213.72,
+      "price_close": 68230.84
+    },
+    {
+      "timestamp": 1771670700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68230.84,
+      "price_close": 68204.0
+    },
+    {
+      "timestamp": 1771671000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68204.0,
+      "price_close": 68164.3
+    },
+    {
+      "timestamp": 1771671300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68164.31,
+      "price_close": 68215.54
+    },
+    {
+      "timestamp": 1771671600000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68215.55,
+      "price_close": 68195.47
+    },
+    {
+      "timestamp": 1771671900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68195.48,
+      "price_close": 68260.78
+    },
+    {
+      "timestamp": 1771672200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68260.79,
+      "price_close": 68269.92
+    },
+    {
+      "timestamp": 1771672500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68269.91,
+      "price_close": 68246.01
+    },
+    {
+      "timestamp": 1771672800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68246.0,
+      "price_close": 68191.63
+    },
+    {
+      "timestamp": 1771673100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68191.63,
+      "price_close": 68185.61
+    },
+    {
+      "timestamp": 1771673400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68185.6,
+      "price_close": 68133.48
+    },
+    {
+      "timestamp": 1771673700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68133.49,
+      "price_close": 68144.97
+    },
+    {
+      "timestamp": 1771674000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68144.97,
+      "price_close": 68094.0
+    },
+    {
+      "timestamp": 1771674300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68094.0,
+      "price_close": 68088.0
+    },
+    {
+      "timestamp": 1771674600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68088.0,
+      "price_close": 68108.01
+    },
+    {
+      "timestamp": 1771674900000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68108.0,
+      "price_close": 68092.45
+    },
+    {
+      "timestamp": 1771675200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68092.45,
+      "price_close": 68117.56
+    },
+    {
+      "timestamp": 1771675500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68117.56,
+      "price_close": 68010.36
+    },
+    {
+      "timestamp": 1771675800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68010.37,
+      "price_close": 67989.96
+    },
+    {
+      "timestamp": 1771676100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67989.96,
+      "price_close": 67982.26
+    },
+    {
+      "timestamp": 1771676400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67982.26,
+      "price_close": 67997.92
+    },
+    {
+      "timestamp": 1771676700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67997.92,
+      "price_close": 67968.0
+    },
+    {
+      "timestamp": 1771677000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67968.0,
+      "price_close": 67955.6
+    },
+    {
+      "timestamp": 1771677300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67955.61,
+      "price_close": 68026.57
+    },
+    {
+      "timestamp": 1771677600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68026.58,
+      "price_close": 68031.31
+    },
+    {
+      "timestamp": 1771677900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68031.3,
+      "price_close": 68126.0
+    },
+    {
+      "timestamp": 1771678200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68126.0,
+      "price_close": 68184.67
+    },
+    {
+      "timestamp": 1771678500000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68184.68,
+      "price_close": 68203.42
+    },
+    {
+      "timestamp": 1771678800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68203.42,
+      "price_close": 68160.0
+    },
+    {
+      "timestamp": 1771679100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68160.01,
+      "price_close": 68182.86
+    },
+    {
+      "timestamp": 1771679400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68182.86,
+      "price_close": 68147.29
+    },
+    {
+      "timestamp": 1771679700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68147.29,
+      "price_close": 68140.89
+    },
+    {
+      "timestamp": 1771680000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68140.88,
+      "price_close": 68179.86
+    },
+    {
+      "timestamp": 1771680300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68179.87,
+      "price_close": 68237.93
+    },
+    {
+      "timestamp": 1771680600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68237.92,
+      "price_close": 68197.87
+    },
+    {
+      "timestamp": 1771680900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68197.87,
+      "price_close": 68209.23
+    },
+    {
+      "timestamp": 1771681200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68209.23,
+      "price_close": 68167.61
+    },
+    {
+      "timestamp": 1771681500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68167.62,
+      "price_close": 68216.8
+    },
+    {
+      "timestamp": 1771681800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68216.79,
+      "price_close": 68202.42
+    },
+    {
+      "timestamp": 1771682100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68202.41,
+      "price_close": 68259.99
+    },
+    {
+      "timestamp": 1771682400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68259.99,
+      "price_close": 68215.7
+    },
+    {
+      "timestamp": 1771682700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68215.71,
+      "price_close": 68245.86
+    },
+    {
+      "timestamp": 1771683000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68245.87,
+      "price_close": 68267.99
+    },
+    {
+      "timestamp": 1771683300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68267.99,
+      "price_close": 68243.3
+    },
+    {
+      "timestamp": 1771683600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68243.3,
+      "price_close": 68499.99
+    },
+    {
+      "timestamp": 1771683900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68500.0,
+      "price_close": 68432.8
+    },
+    {
+      "timestamp": 1771684200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68432.8,
+      "price_close": 68540.81
+    },
+    {
+      "timestamp": 1771684500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68540.81,
+      "price_close": 68530.39
+    },
+    {
+      "timestamp": 1771684800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68530.4,
+      "price_close": 68541.67
+    },
+    {
+      "timestamp": 1771685100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68541.68,
+      "price_close": 68480.42
+    },
+    {
+      "timestamp": 1771685400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68480.43,
+      "price_close": 68501.36
+    },
+    {
+      "timestamp": 1771685700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68501.36,
+      "price_close": 68450.01
+    },
+    {
+      "timestamp": 1771686000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68450.01,
+      "price_close": 68440.3
+    },
+    {
+      "timestamp": 1771686300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68440.3,
+      "price_close": 68481.79
+    },
+    {
+      "timestamp": 1771686600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68481.78,
+      "price_close": 68489.47
+    },
+    {
+      "timestamp": 1771686900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68489.47,
+      "price_close": 68542.88
+    },
+    {
+      "timestamp": 1771687200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68542.89,
+      "price_close": 68528.62
+    },
+    {
+      "timestamp": 1771687500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68528.61,
+      "price_close": 68453.61
+    },
+    {
+      "timestamp": 1771687800000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68453.61,
+      "price_close": 68526.0
+    },
+    {
+      "timestamp": 1771688100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68526.0,
+      "price_close": 68512.94
+    },
+    {
+      "timestamp": 1771688400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68512.94,
+      "price_close": 68631.72
+    },
+    {
+      "timestamp": 1771688700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68631.72,
+      "price_close": 68663.69
+    },
+    {
+      "timestamp": 1771689000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68663.69,
+      "price_close": 68619.21
+    },
+    {
+      "timestamp": 1771689300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68619.2,
+      "price_close": 68615.0
+    },
+    {
+      "timestamp": 1771689600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68615.01,
+      "price_close": 68402.41
+    },
+    {
+      "timestamp": 1771689900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68402.41,
+      "price_close": 68421.01
+    },
+    {
+      "timestamp": 1771690200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68421.01,
+      "price_close": 68356.78
+    },
+    {
+      "timestamp": 1771690500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68356.77,
+      "price_close": 68262.35
+    },
+    {
+      "timestamp": 1771690800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68262.36,
+      "price_close": 68191.31
+    },
+    {
+      "timestamp": 1771691100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68191.32,
+      "price_close": 68274.36
+    },
+    {
+      "timestamp": 1771691400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68274.37,
+      "price_close": 68221.56
+    },
+    {
+      "timestamp": 1771691700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68221.55,
+      "price_close": 68350.5
+    },
+    {
+      "timestamp": 1771692000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68350.5,
+      "price_close": 68356.0
+    },
+    {
+      "timestamp": 1771692300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68356.0,
+      "price_close": 68313.68
+    },
+    {
+      "timestamp": 1771692600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68313.68,
+      "price_close": 68350.49
+    },
+    {
+      "timestamp": 1771692900000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68350.49,
+      "price_close": 68322.6
+    },
+    {
+      "timestamp": 1771693200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68322.61,
+      "price_close": 68304.0
+    },
+    {
+      "timestamp": 1771693500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68304.01,
+      "price_close": 68277.4
+    },
+    {
+      "timestamp": 1771693800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68277.41,
+      "price_close": 68264.45
+    },
+    {
+      "timestamp": 1771694100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68264.46,
+      "price_close": 68238.47
+    },
+    {
+      "timestamp": 1771694400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68238.48,
+      "price_close": 68264.88
+    },
+    {
+      "timestamp": 1771694700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68264.88,
+      "price_close": 68283.38
+    },
+    {
+      "timestamp": 1771695000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68283.37,
+      "price_close": 68294.1
+    },
+    {
+      "timestamp": 1771695300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68294.11,
+      "price_close": 68351.97
+    },
+    {
+      "timestamp": 1771695600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68351.97,
+      "price_close": 68425.6
+    },
+    {
+      "timestamp": 1771695900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68425.6,
+      "price_close": 68439.62
+    },
+    {
+      "timestamp": 1771696200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68439.61,
+      "price_close": 68459.42
+    },
+    {
+      "timestamp": 1771696500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68459.42,
+      "price_close": 68437.45
+    },
+    {
+      "timestamp": 1771696800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68437.45,
+      "price_close": 68413.05
+    },
+    {
+      "timestamp": 1771697100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68413.05,
+      "price_close": 68383.08
+    },
+    {
+      "timestamp": 1771697400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68383.09,
+      "price_close": 68407.61
+    },
+    {
+      "timestamp": 1771697700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68407.62,
+      "price_close": 68497.89
+    },
+    {
+      "timestamp": 1771698000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68497.9,
+      "price_close": 68520.1
+    },
+    {
+      "timestamp": 1771698300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68520.09,
+      "price_close": 68490.45
+    },
+    {
+      "timestamp": 1771698600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68490.45,
+      "price_close": 68498.75
+    },
+    {
+      "timestamp": 1771698900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68498.75,
+      "price_close": 68540.67
+    },
+    {
+      "timestamp": 1771699200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68540.68,
+      "price_close": 68546.03
+    },
+    {
+      "timestamp": 1771699500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68546.04,
+      "price_close": 68612.01
+    },
+    {
+      "timestamp": 1771699800000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68612.01,
+      "price_close": 68616.36
+    },
+    {
+      "timestamp": 1771700100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68616.36,
+      "price_close": 68574.0
+    },
+    {
+      "timestamp": 1771700400000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68573.99,
+      "price_close": 68554.94
+    },
+    {
+      "timestamp": 1771700700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68554.93,
+      "price_close": 68643.98
+    },
+    {
+      "timestamp": 1771701000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68643.99,
+      "price_close": 68591.34
+    },
+    {
+      "timestamp": 1771701300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68591.34,
+      "price_close": 68603.5
+    },
+    {
+      "timestamp": 1771701600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68603.99,
+      "price_close": 68588.08
+    },
+    {
+      "timestamp": 1771701900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68588.07,
+      "price_close": 68573.68
+    },
+    {
+      "timestamp": 1771702200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68573.68,
+      "price_close": 68603.27
+    },
+    {
+      "timestamp": 1771702500000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68603.27,
+      "price_close": 68615.39
+    },
+    {
+      "timestamp": 1771702800000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68615.4,
+      "price_close": 68627.16
+    },
+    {
+      "timestamp": 1771703100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68627.15,
+      "price_close": 68602.0
+    },
+    {
+      "timestamp": 1771703400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68602.0,
+      "price_close": 68536.95
+    },
+    {
+      "timestamp": 1771703700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68536.96,
+      "price_close": 68543.51
+    },
+    {
+      "timestamp": 1771704000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68543.51,
+      "price_close": 68504.14
+    },
+    {
+      "timestamp": 1771704300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68504.15,
+      "price_close": 68499.03
+    },
+    {
+      "timestamp": 1771704600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68499.04,
+      "price_close": 68489.18
+    },
+    {
+      "timestamp": 1771704900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68489.18,
+      "price_close": 68564.38
+    },
+    {
+      "timestamp": 1771705200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68564.39,
+      "price_close": 68582.25
+    },
+    {
+      "timestamp": 1771705500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68582.25,
+      "price_close": 68565.05
+    },
+    {
+      "timestamp": 1771705800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68565.05,
+      "price_close": 68540.75
+    },
+    {
+      "timestamp": 1771706100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68540.75,
+      "price_close": 68431.39
+    },
+    {
+      "timestamp": 1771706400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68431.39,
+      "price_close": 68385.3
+    },
+    {
+      "timestamp": 1771706700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68385.29,
+      "price_close": 68393.15
+    },
+    {
+      "timestamp": 1771707000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68393.15,
+      "price_close": 68339.0
+    },
+    {
+      "timestamp": 1771707300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68339.0,
+      "price_close": 68211.19
+    },
+    {
+      "timestamp": 1771707600000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68211.19,
+      "price_close": 68268.22
+    },
+    {
+      "timestamp": 1771707900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68268.23,
+      "price_close": 68336.14
+    },
+    {
+      "timestamp": 1771708200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68336.14,
+      "price_close": 68291.03
+    },
+    {
+      "timestamp": 1771708500000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68291.03,
+      "price_close": 68342.71
+    },
+    {
+      "timestamp": 1771708800000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68342.71,
+      "price_close": 68364.48
+    },
+    {
+      "timestamp": 1771709100000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68364.49,
+      "price_close": 68345.55
+    },
+    {
+      "timestamp": 1771709400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68345.55,
+      "price_close": 68336.09
+    },
+    {
+      "timestamp": 1771709700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68336.09,
+      "price_close": 68319.63
+    },
+    {
+      "timestamp": 1771710000000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68319.63,
+      "price_close": 68289.88
+    },
+    {
+      "timestamp": 1771710300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68289.88,
+      "price_close": 68312.64
+    },
+    {
+      "timestamp": 1771710600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68312.64,
+      "price_close": 68343.14
+    },
+    {
+      "timestamp": 1771710900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68343.14,
+      "price_close": 68379.95
+    },
+    {
+      "timestamp": 1771711200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68379.95,
+      "price_close": 68401.55
+    },
+    {
+      "timestamp": 1771711500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68401.55,
+      "price_close": 68338.43
+    },
+    {
+      "timestamp": 1771711800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68338.43,
+      "price_close": 68251.3
+    },
+    {
+      "timestamp": 1771712100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68251.3,
+      "price_close": 68298.0
+    },
+    {
+      "timestamp": 1771712400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68298.0,
+      "price_close": 68318.0
+    },
+    {
+      "timestamp": 1771712700000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68318.0,
+      "price_close": 68263.55
+    },
+    {
+      "timestamp": 1771713000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68263.55,
+      "price_close": 68225.36
+    },
+    {
+      "timestamp": 1771713300000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68225.36,
+      "price_close": 68155.87
+    },
+    {
+      "timestamp": 1771713600000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68155.86,
+      "price_close": 68099.02
+    },
+    {
+      "timestamp": 1771713900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68099.02,
+      "price_close": 68121.42
+    },
+    {
+      "timestamp": 1771714200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68121.42,
+      "price_close": 68090.8
+    },
+    {
+      "timestamp": 1771714500000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68090.8,
+      "price_close": 67972.0
+    },
+    {
+      "timestamp": 1771714800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67972.0,
+      "price_close": 67941.02
+    },
+    {
+      "timestamp": 1771715100000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67941.03,
+      "price_close": 67990.5
+    },
+    {
+      "timestamp": 1771715400000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 67990.51,
+      "price_close": 67950.48
+    },
+    {
+      "timestamp": 1771715700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67950.48,
+      "price_close": 68026.6
+    },
+    {
+      "timestamp": 1771716000000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68026.61,
+      "price_close": 68059.99
+    },
+    {
+      "timestamp": 1771716300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68059.99,
+      "price_close": 68075.77
+    },
+    {
+      "timestamp": 1771716600000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68075.77,
+      "price_close": 68101.63
+    },
+    {
+      "timestamp": 1771716900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68101.63,
+      "price_close": 68116.21
+    },
+    {
+      "timestamp": 1771717200000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68116.21,
+      "price_close": 68058.0
+    },
+    {
+      "timestamp": 1771717500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68057.99,
+      "price_close": 67991.44
+    },
+    {
+      "timestamp": 1771717800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67991.45,
+      "price_close": 67980.39
+    },
+    {
+      "timestamp": 1771718100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67980.4,
+      "price_close": 67975.93
+    },
+    {
+      "timestamp": 1771718400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 67975.93,
+      "price_close": 68020.98
+    },
+    {
+      "timestamp": 1771718700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68020.97,
+      "price_close": 68030.52
+    },
+    {
+      "timestamp": 1771719000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68030.51,
+      "price_close": 68015.09
+    },
+    {
+      "timestamp": 1771719300000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68015.08,
+      "price_close": 67994.1
+    },
+    {
+      "timestamp": 1771719600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67994.11,
+      "price_close": 67867.4
+    },
+    {
+      "timestamp": 1771719900000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67867.41,
+      "price_close": 67856.03
+    },
+    {
+      "timestamp": 1771720200000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67856.03,
+      "price_close": 67852.0
+    },
+    {
+      "timestamp": 1771720500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67852.01,
+      "price_close": 67887.2
+    },
+    {
+      "timestamp": 1771720800000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67887.2,
+      "price_close": 67846.01
+    },
+    {
+      "timestamp": 1771721100000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67846.01,
+      "price_close": 67863.9
+    },
+    {
+      "timestamp": 1771721400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67863.89,
+      "price_close": 67887.71
+    },
+    {
+      "timestamp": 1771721700000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67887.71,
+      "price_close": 67946.0
+    },
+    {
+      "timestamp": 1771722000000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 67946.0,
+      "price_close": 67992.72
+    },
+    {
+      "timestamp": 1771722300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67992.73,
+      "price_close": 68045.34
+    },
+    {
+      "timestamp": 1771722600000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68045.34,
+      "price_close": 68033.38
+    },
+    {
+      "timestamp": 1771722900000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68033.38,
+      "price_close": 68060.0
+    },
+    {
+      "timestamp": 1771723200000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68060.0,
+      "price_close": 68092.18
+    },
+    {
+      "timestamp": 1771723500000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68092.19,
+      "price_close": 68116.6
+    },
+    {
+      "timestamp": 1771723800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68116.6,
+      "price_close": 68076.05
+    },
+    {
+      "timestamp": 1771724100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68076.04,
+      "price_close": 68064.77
+    },
+    {
+      "timestamp": 1771724400000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 75,
+      "correct": true,
+      "pnl": 3.333333333333334,
+      "price_open": 68064.78,
+      "price_close": 68126.46
+    },
+    {
+      "timestamp": 1771724700000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68126.45,
+      "price_close": 68160.16
+    },
+    {
+      "timestamp": 1771725000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68160.16,
+      "price_close": 68150.0
+    },
+    {
+      "timestamp": 1771725300000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68150.01,
+      "price_close": 68159.31
+    },
+    {
+      "timestamp": 1771725600000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68159.32,
+      "price_close": 68141.81
+    },
+    {
+      "timestamp": 1771725900000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68141.81,
+      "price_close": 68201.89
+    },
+    {
+      "timestamp": 1771726200000,
+      "predicted": "UP",
+      "actual": "UP",
+      "confidence": 65,
+      "correct": true,
+      "pnl": 5.384615384615383,
+      "price_open": 68201.88,
+      "price_close": 68215.41
+    },
+    {
+      "timestamp": 1771726500000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68215.41,
+      "price_close": 68100.0
+    },
+    {
+      "timestamp": 1771726800000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68100.01,
+      "price_close": 68072.31
+    },
+    {
+      "timestamp": 1771727100000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 75,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68072.31,
+      "price_close": 68056.09
+    },
+    {
+      "timestamp": 1771727400000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 68056.1,
+      "price_close": 68112.95
+    },
+    {
+      "timestamp": 1771727700000,
+      "predicted": "DOWN",
+      "actual": "DOWN",
+      "confidence": 55,
+      "correct": true,
+      "pnl": 8.18181818181818,
+      "price_open": 68112.95,
+      "price_close": 67996.0
+    },
+    {
+      "timestamp": 1771728000000,
+      "predicted": "UP",
+      "actual": "DOWN",
+      "confidence": 65,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67996.0,
+      "price_close": 67983.82
+    },
+    {
+      "timestamp": 1771728300000,
+      "predicted": "DOWN",
+      "actual": "UP",
+      "confidence": 55,
+      "correct": false,
+      "pnl": -10.0,
+      "price_open": 67983.82,
+      "price_close": 68000.55
+    }
+  ]
+}

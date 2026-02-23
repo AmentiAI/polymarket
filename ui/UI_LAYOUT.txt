@@ -1,0 +1,215 @@
+╔════════════════════════════════════════════════════════════════════════════════════════════╗
+║  🎯 SNIPER     BTC $95,503   ⏱ 1:23      🔥 LATE UP 72%     17W/7L  70.8%  $+34.20  🟢 LIVE ║
+╠═══════════════════════════╦════════════════════════════════════════════════════════════════╣
+║                           ║                                                                ║
+║  CURRENT CANDLE           ║                                                                ║
+║  ────────────────────     ║                                                                ║
+║  Body    $67 (41.3%) 🟢   ║                                                                ║
+║  Vol     0.11%       ✓    ║                                                                ║
+║  Range   $130             ║                   BTC/USDT 5m Candlestick Chart                ║
+║  Dir     🟢 GREEN         ║                                                                ║
+║                           ║                   [Candlestick chart here]                     ║
+║  POLYMARKET SHARES        ║                                                                ║
+║  ────────────────────     ║                   Green candles = UP                           ║
+║  UP      $0.612      🟢   ║                   Red candles = DOWN                           ║
+║  DOWN    $0.388      🔴   ║                                                                ║
+║  ✓ ACCEPTING ORDERS       ║                                                                ║
+║                           ║                                                                ║
+║  SIGNAL STATUS            ║                                                                ║
+║  ────────────────────     ║                                                                ║
+║  🎯 SNIPE UP              ║                                                                ║
+║  LATE: Clean green        ║                                                                ║
+║  continuation (body $67,  ║                                                                ║
+║  vol 0.11%)               ║                                                                ║
+║  72.4% confidence         ║                                                                ║
+║                           ║                                                                ║
+║  STRATEGY PERFORMANCE     ║                                                                ║
+║  ────────────────────     ║                                                                ║
+║  LAST-SECOND (10-20s)     ║                                                                ║
+║  76.5% win rate           ║                                                                ║
+║                           ║                                                                ║
+║  LATE (60-120s)           ║                                                                ║
+║  68.2% win rate           ║                                                                ║
+║                           ║                                                                ║
+║  AVG P&L / TRADE          ║                                                                ║
+║  $+1.43                   ║                                                                ║
+║                           ║                                                                ║
+╠═══════════════════════════╩════════════════════════════════════════════════════════════════╣
+║  RECENT TRADES (24)                                                                        ║
+║  ────────────────────────────────────────────────────────────────────────────────────────  ║
+║  TIME      TYPE    DIR   CONF%   ENTRY    EXIT     P&L      STATUS                        ║
+║  ────────────────────────────────────────────────────────────────────────────────────────  ║
+║  19:45:22  LATE    ▲ UP   72%    $0.615   $0.995   $+6.29   ✅ WIN                        ║
+║  19:40:15  LAST    ▼ DN   78%    $0.723   $0.089   $-6.34   ❌ LOSS                       ║
+║  19:35:08  LATE    ▲ UP   65%    $0.582   $0.987   $+4.05   ✅ WIN                        ║
+║  19:30:02  LAST    ▲ UP   81%    $0.645   $0.991   $+3.46   ✅ WIN                        ║
+║  19:24:56  LATE    ▼ DN   69%    $0.591   $0.992   $+4.01   ✅ WIN                        ║
+║  19:19:49  LAST    ▲ UP   76%    $0.612   $0.134   $-4.78   ❌ LOSS                       ║
+║  ...                                                                                       ║
+╚════════════════════════════════════════════════════════════════════════════════════════════╝
+
+LAYOUT BREAKDOWN:
+═══════════════════════════════════════════════════════════════════════════════════════════
+
+┌─ HEADER (Top Bar) ────────────────────────────────────────────────────────────────────┐
+│  • Bot Logo (🎯 SNIPER)                                                               │
+│  • Live BTC Price ($95,503)                                                           │
+│  • Countdown Timer (⏱ 1:23) — Color changes based on urgency:                        │
+│    - White: >60s left                                                                 │
+│    - Yellow: 30-60s left                                                              │
+│    - Red: <30s left (URGENT)                                                          │
+│  • Active Signal Badge (🔥 LATE UP 72%) — Animated pulse when SNIPE active           │
+│  • Win/Loss Record (17W/7L)                                                           │
+│  • Win Rate (70.8%)                                                                   │
+│  • Net P&L ($+34.20) — Green if positive, red if negative                            │
+│  • Connection Status (🟢 LIVE / 🔴 OFFLINE)                                           │
+│  • Demo/Live Toggle Button                                                           │
+└───────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─ LEFT SIDEBAR (320px) ────────────────────────────────────────────────────────────────┐
+│                                                                                       │
+│  ┌─ Current Candle ─────────────────────────────────────────────────────────────┐   │
+│  │  • Body: $67 (41.3% of range) — Green if up, red if down                     │   │
+│  │  • Volatility: 0.11% — Green if <0.15%, yellow if 0.15-0.25%, red if >0.25%  │   │
+│  │  • Range: $130 (high - low)                                                  │   │
+│  │  • Direction: 🟢 GREEN or 🔴 RED                                             │   │
+│  └──────────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                       │
+│  ┌─ Polymarket Shares ──────────────────────────────────────────────────────────┐   │
+│  │  • UP:   $0.612 (green)                                                      │   │
+│  │  • DOWN: $0.388 (red)                                                        │   │
+│  │  • Market Status: ✓ ACCEPTING ORDERS or ✗ CLOSED                            │   │
+│  └──────────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                       │
+│  ┌─ Signal Status ──────────────────────────────────────────────────────────────┐   │
+│  │  • Action: 🎯 SNIPE UP or ⏸ WAITING                                          │   │
+│  │  • Reason: "LATE: Clean green continuation (body $67, vol 0.11%)"           │   │
+│  │  • Confidence: 72.4%                                                         │   │
+│  │  (Background highlights yellow when SNIPE active)                            │   │
+│  └──────────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                       │
+│  ┌─ Strategy Performance ───────────────────────────────────────────────────────┐   │
+│  │  • LAST-SECOND (10-20s):  76.5% WR                                           │   │
+│  │  • LATE (60-120s):        68.2% WR                                           │   │
+│  │  • AVG P&L / TRADE:       $+1.43                                             │   │
+│  └──────────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                       │
+└───────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─ CENTER PANEL (Main Chart) ───────────────────────────────────────────────────────────┐
+│                                                                                       │
+│  ┌─ BTC/USDT 5m Candlestick Chart (TradingView Style) ─────────────────────────┐   │
+│  │                                                                              │   │
+│  │  96,000 ┤                                ╭╮                                  │   │
+│  │         │                              ╭─╯╰─╮                                │   │
+│  │  95,500 ┤            ╭╮              ╭╯    ╰╮                                │   │
+│  │         │          ╭─╯╰─╮          ╭╯      ╰╮                               │   │
+│  │  95,000 ┤        ╭╯    ╰╮        ╭╯        ╰╮                               │   │
+│  │         │      ╭╯      ╰╮      ╭╯          ╰╮                               │   │
+│  │  94,500 ┤    ╭╯        ╰╮    ╭╯            ╰╮                               │   │
+│  │         │  ╭╯          ╰╮  ╭╯              ╰╮                               │   │
+│  │  94,000 ┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──                            │   │
+│  │         10:00  10:05  10:10  10:15  10:20  10:25                            │   │
+│  │                                                                              │   │
+│  │  Green candles = price went UP                                              │   │
+│  │  Red candles = price went DOWN                                              │   │
+│  │  Smooth zoom/pan with mouse                                                 │   │
+│  └──────────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                       │
+└───────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─ BOTTOM PANEL (Recent Trades Table) ──────────────────────────────────────────────────┐
+│                                                                                       │
+│  RECENT TRADES (24)                                                                   │
+│  ────────────────────────────────────────────────────────────────────────────────    │
+│  TIME      TYPE    DIR      CONF%   ENTRY    EXIT     P&L      STATUS                │
+│  ────────────────────────────────────────────────────────────────────────────────    │
+│  19:45:22  LATE    ▲ UP      72%    $0.615   $0.995   $+6.29   ✅ WIN               │
+│  19:40:15  LAST    ▼ DOWN    78%    $0.723   $0.089   $-6.34   ❌ LOSS              │
+│  19:35:08  LATE    ▲ UP      65%    $0.582   $0.987   $+4.05   ✅ WIN               │
+│  ...                                                                                  │
+│                                                                                       │
+│  • Newest trades at top                                                              │
+│  • P&L color-coded (green = profit, red = loss)                                      │
+│  • Status shows: OPEN (yellow), WIN (green), LOSS (red)                              │
+│  • Scrollable if more than 20 trades                                                 │
+│                                                                                       │
+└───────────────────────────────────────────────────────────────────────────────────────┘
+
+COLOR CODING:
+═════════════════════════════════════════════════════════════════════════════════════
+
+🟢 GREEN (#26a69a)
+   - UP direction
+   - Positive P&L
+   - Win outcomes
+   - Low volatility (<0.15%)
+   - Candles closing higher
+
+🔴 RED (#ef5350)
+   - DOWN direction
+   - Negative P&L
+   - Loss outcomes
+   - High volatility (>0.25%)
+   - Candles closing lower
+
+🟡 YELLOW (#fbbf24)
+   - Warning states
+   - Timer 30-60s left
+   - Medium volatility (0.15-0.25%)
+   - OPEN trades (pending)
+
+⚪ WHITE (#e5e7eb)
+   - Normal text
+   - Timer >60s left
+   - Neutral states
+
+🔵 BLUE (#3b82f6)
+   - LATE strategy badges
+   - Demo mode indicator
+
+═════════════════════════════════════════════════════════════════════════════════════
+
+RESPONSIVE BEHAVIOR:
+═════════════════════════════════════════════════════════════════════════════════════
+
+Minimum Width: 1440px (optimized for desktop trading)
+
+Layout Breakpoints:
+  • <1440px: Horizontal scroll (not designed for mobile)
+  • 1440px-1920px: Optimal viewing
+  • >1920px: Extra whitespace on sides (centered)
+
+Chart:
+  • Resizes automatically to fill available space
+  • Maintains aspect ratio
+  • Smooth zooming with mouse wheel
+  • Panning with click-drag
+
+Tables:
+  • Fixed header row (always visible)
+  • Scrollable body if >20 trades
+  • Row hover highlights
+
+═════════════════════════════════════════════════════════════════════════════════════
+
+DEMO MODE vs LIVE MODE:
+═════════════════════════════════════════════════════════════════════════════════════
+
+DEMO MODE (Default):
+  • Generates random BTC price (~$95k +/- $500)
+  • Random candles every second
+  • Random snipe signals
+  • Fake trade history
+  • Perfect for screenshots / showing friends
+
+LIVE MODE (Requires Bot):
+  • Real-time WebSocket connection to Python bot
+  • Actual BTC data from Binance
+  • Real Polymarket share prices
+  • Real snipe signals from bot logic
+  • Real P&L tracking
+
+Toggle with button in top-right corner
+
+═════════════════════════════════════════════════════════════════════════════════════
