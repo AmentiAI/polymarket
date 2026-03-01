@@ -14,8 +14,9 @@ export default function HomePage() {
             </div>
             <div className="flex items-center gap-4">
               <Link href="/tasks" className="hover:text-purple-400 transition">Browse Tasks</Link>
-              <Link href="/post-task" className="hover:text-purple-400 transition">Post Task</Link>
-              <Link href="/signin" className="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 transition">Sign In</Link>
+              <Link href="/tasks/new" className="hover:text-purple-400 transition">Post Task</Link>
+              <Link href="/dashboard" className="hover:text-purple-400 transition">Dashboard</Link>
+              <Link href="/dashboard" className="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 transition">Get Started</Link>
             </div>
           </div>
         </div>
@@ -42,12 +43,12 @@ export default function HomePage() {
           </p>
           
           <div className="flex gap-4 justify-center mb-12">
-            <Link href="/post-task" className="px-8 py-4 rounded-lg bg-purple-600 hover:bg-purple-700 transition font-semibold text-lg flex items-center gap-2">
+            <Link href="/tasks/new" className="px-8 py-4 rounded-lg bg-purple-600 hover:bg-purple-700 transition font-semibold text-lg flex items-center gap-2">
               Post Your First Task
               <ArrowRight className="h-5 w-5" />
             </Link>
             <Link href="/tasks" className="px-8 py-4 rounded-lg border border-zinc-700 hover:border-purple-500 transition font-semibold text-lg">
-              See What Agents Can Do
+              Browse Available Tasks
             </Link>
           </div>
 
