@@ -21,24 +21,19 @@ export async function GET(request: NextRequest) {
     }
     
     if (minPrice || maxPrice) {
-      where.priceUSD = {}
-      if (minPrice) where.priceUSD.gte = parseFloat(minPrice)
-      if (maxPrice) where.priceUSD.lte = parseFloat(maxPrice)
+      where.budget = {}
+      if (minPrice) where.budget.gte = parseFloat(minPrice)
+      if (maxPrice) where.budget.lte = parseFloat(maxPrice)
     }
 
     const tasks = await prisma.task.findMany({
       where,
       include: {
-        buyer: {
+        poster: {
           select: {
             id: true,
             name: true,
             image: true,
-          }
-        },
-        _count: {
-          select: {
-            bids: true
           }
         }
       },
@@ -66,23 +61,22 @@ export async function POST(request: NextRequest) {
       title,
       description,
       category,
-      priceUSD,
+      budget,
       deadline,
-      requirements,
-      buyerId
+      posterId
     } = body
 
     // Validation
-    if (!title || !description || !category || !priceUSD || !buyerId) {
+    if (!title || !description || !category || !budget || !posterId) {
       return NextResponse.json(
         { error: 'Missing required fields' },
         { status: 400 }
       )
     }
 
-    if (priceUSD < 1) {
+    if (budget < 1) {
       return NextResponse.json(
-        { error: 'Price must be at least $1' },
+        { error: 'Budget must be at least $1' },
         { status: 400 }
       )
     }
@@ -92,14 +86,13 @@ export async function POST(request: NextRequest) {
         title,
         description,
         category,
-        priceUSD: parseFloat(priceUSD),
+        budget: parseFloat(budget),
         deadline: deadline ? new Date(deadline) : null,
-        requirements: requirements || [],
-        buyerId,
+        posterId,
         status: 'OPEN'
       },
       include: {
-        buyer: {
+        poster: {
           select: {
             id: true,
             name: true,

@@ -4,13 +4,14 @@ import { prisma } from '@/lib/prisma'
 // GET /api/tasks/[id] - Get task details
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params
     const task = await prisma.task.findUnique({
-      where: { id: params.id },
+      where: { id },
       include: {
-        buyer: {
+        poster: {
           select: {
             id: true,
             name: true,
@@ -19,24 +20,16 @@ export async function GET(
             createdAt: true
           }
         },
-        bids: {
-          include: {
-            agent: {
-              select: {
-                id: true,
-                name: true,
-                image: true,
-                rating: true,
-                totalEarnings: true
-              }
-            }
-          },
-          orderBy: {
-            createdAt: 'desc'
+        agent: {
+          select: {
+            id: true,
+            name: true,
+            image: true,
+            reputation: true,
+            totalEarned: true
           }
         },
-        payment: true,
-        review: true
+        payment: true
       }
     })
 
@@ -60,14 +53,15 @@ export async function GET(
 // PATCH /api/tasks/[id] - Update task status
 export async function PATCH(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params
     const body = await request.json()
     const { status, winnerId, buyerId } = body
 
     const task = await prisma.task.findUnique({
-      where: { id: params.id }
+      where: { id }
     })
 
     if (!task) {
@@ -77,8 +71,8 @@ export async function PATCH(
       )
     }
 
-    // Verify buyer owns this task
-    if (buyerId && task.buyerId !== buyerId) {
+    // Verify poster owns this task
+    if (buyerId && task.posterId !== buyerId) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 403 }
@@ -86,20 +80,20 @@ export async function PATCH(
     }
 
     const updatedTask = await prisma.task.update({
-      where: { id: params.id },
+      where: { id },
       data: {
         status,
-        winnerId: winnerId || task.winnerId
+        agentId: winnerId || task.agentId
       },
       include: {
-        buyer: {
+        poster: {
           select: {
             id: true,
             name: true,
             image: true
           }
         },
-        winner: {
+        agent: {
           select: {
             id: true,
             name: true,
@@ -122,14 +116,12 @@ export async function PATCH(
 // DELETE /api/tasks/[id] - Delete task (only if no bids)
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params
     const task = await prisma.task.findUnique({
-      where: { id: params.id },
-      include: {
-        bids: true
-      }
+      where: { id }
     })
 
     if (!task) {
@@ -139,15 +131,15 @@ export async function DELETE(
       )
     }
 
-    if (task.bids.length > 0) {
+    if (task.status !== 'OPEN') {
       return NextResponse.json(
-        { error: 'Cannot delete task with bids' },
+        { error: 'Cannot delete task that is not open' },
         { status: 400 }
       )
     }
 
     await prisma.task.delete({
-      where: { id: params.id }
+      where: { id }
     })
 
     return NextResponse.json({ success: true })

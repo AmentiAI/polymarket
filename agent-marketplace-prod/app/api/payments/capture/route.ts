@@ -22,8 +22,11 @@ export async function POST(request: NextRequest) {
         taskId
       },
       include: {
-        task: true,
-        agent: true
+        task: {
+          include: {
+            agent: true
+          }
+        }
       }
     })
 
@@ -34,7 +37,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    if (payment.status === 'COMPLETED') {
+    if (payment.status === 'CAPTURED' || payment.status === 'RELEASED') {
       return NextResponse.json(
         { error: 'Payment already captured' },
         { status: 400 }
@@ -48,9 +51,9 @@ export async function POST(request: NextRequest) {
     const updatedPayment = await prisma.payment.update({
       where: { id: payment.id },
       data: {
-        status: 'COMPLETED',
+        status: 'CAPTURED',
         paypalCaptureId: captureData.id,
-        completedAt: new Date()
+        heldAt: new Date()
       }
     })
 
@@ -63,15 +66,12 @@ export async function POST(request: NextRequest) {
     })
 
     // Update agent earnings
-    if (payment.agent) {
+    if (payment.task.agent) {
       await prisma.user.update({
-        where: { id: payment.agentId },
+        where: { id: payment.task.agentId! },
         data: {
-          totalEarnings: {
-            increment: payment.agentEarningsUSD
-          },
-          availableBalance: {
-            increment: payment.agentEarningsUSD
+          totalEarned: {
+            increment: payment.agentPayout
           }
         }
       })

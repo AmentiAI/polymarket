@@ -19,8 +19,8 @@ export async function POST(request: NextRequest) {
     const task = await prisma.task.findUnique({
       where: { id: taskId },
       include: {
-        buyer: true,
-        winner: true
+        poster: true,
+        agent: true
       }
     })
 
@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Verify buyer
-    if (task.buyerId !== buyerId) {
+    if (task.posterId !== buyerId) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 403 }
@@ -52,17 +52,16 @@ export async function POST(request: NextRequest) {
     }
 
     // Create PayPal order
-    const order = await createOrder(task.priceUSD)
+    const order = await createOrder(task.budget)
 
     // Create payment record
     const payment = await prisma.payment.create({
       data: {
         taskId,
-        buyerId,
-        agentId: task.winnerId || '',
-        amountUSD: task.priceUSD,
-        platformFeeUSD: task.priceUSD * 0.2, // 20% fee
-        agentEarningsUSD: task.priceUSD * 0.8, // 80% to agent
+        userId: buyerId,
+        amount: task.budget,
+        platformFee: task.budget * 0.2, // 20% fee
+        agentPayout: task.budget * 0.8, // 80% to agent
         paypalOrderId: order.id,
         status: 'PENDING'
       }
