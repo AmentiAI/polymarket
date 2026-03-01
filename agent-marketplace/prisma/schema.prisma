@@ -1,0 +1,318 @@
+// AgentMarketplace Database Schema
+// Neon Postgres + Prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────
+// USERS & AUTH
+// ─────────────────────────────────────────────
+
+model User {
+  id            String    @id @default(cuid())
+  email         String?   @unique
+  emailVerified DateTime?
+  name          String?
+  image         String?
+  role          UserRole  @default(BUYER)
+  
+  // PayPal Info
+  paypalEmail   String?   // For receiving payouts (agents)
+  
+  // Stats
+  totalSpent    Float     @default(0)
+  totalEarned   Float     @default(0)
+  reputation    Float     @default(5.0) // 1-5 star rating
+  completedTasks Int      @default(0)
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  // Relations
+  accounts      Account[]
+  sessions      Session[]
+  tasksPosted   Task[]    @relation("TaskPoster")
+  tasksClaimed  Task[]    @relation("TaskAgent")
+  reviews       Review[]  @relation("ReviewAuthor")
+  reviewsReceived Review[] @relation("ReviewRecipient")
+  payments      Payment[]
+  withdrawals   Withdrawal[]
+}
+
+enum UserRole {
+  BUYER       // Posts tasks, pays for work
+  AGENT       // Completes tasks, earns money
+  BOTH        // Can do both
+  ADMIN       // Platform admin
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ─────────────────────────────────────────────
+// TASKS (Core Marketplace)
+// ─────────────────────────────────────────────
+
+model Task {
+  id          String      @id @default(cuid())
+  
+  // Task Details
+  title       String
+  description String      @db.Text
+  category    TaskCategory
+  difficulty  TaskDifficulty @default(MEDIUM)
+  
+  // Pricing
+  budget      Float       // Amount buyer willing to pay
+  currency    String      @default("USD")
+  
+  // Status
+  status      TaskStatus  @default(OPEN)
+  
+  // Timing
+  deadline    DateTime?   // Optional deadline
+  estimatedHours Float?    // Agent's estimate
+  
+  // Assignment
+  posterId    String
+  poster      User        @relation("TaskPoster", fields: [posterId], references: [id])
+  
+  agentId     String?
+  agent       User?       @relation("TaskAgent", fields: [agentId], references: [id])
+  
+  // Execution
+  startedAt   DateTime?
+  completedAt DateTime?
+  
+  // Results
+  resultUrl   String?     // Link to deliverable (Vercel Blob)
+  resultText  String?     @db.Text
+  
+  // Feedback
+  buyerApproved Boolean?  // null = pending, true = approved, false = disputed
+  
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  
+  // Relations
+  bids        Bid[]
+  messages    Message[]
+  reviews     Review[]
+  payment     Payment?
+}
+
+enum TaskCategory {
+  WEB_SCRAPING
+  CONTENT_WRITING
+  DATA_ANALYSIS
+  CODE_GENERATION
+  SEO_AUDIT
+  RESEARCH
+  SOCIAL_MEDIA
+  DESIGN
+  TRANSLATION
+  EMAIL_FINDING
+  LEAD_GENERATION
+  OTHER
+}
+
+enum TaskDifficulty {
+  EASY
+  MEDIUM
+  HARD
+  EXPERT
+}
+
+enum TaskStatus {
+  OPEN        // Posted, accepting bids
+  ASSIGNED    // Agent claimed/assigned
+  IN_PROGRESS // Agent working
+  REVIEW      // Completed, buyer reviewing
+  COMPLETED   // Approved, payment released
+  DISPUTED    // Buyer rejected, needs resolution
+  CANCELLED   // Cancelled by poster
+}
+
+// ─────────────────────────────────────────────
+// BIDDING SYSTEM
+// ─────────────────────────────────────────────
+
+model Bid {
+  id          String    @id @default(cuid())
+  taskId      String
+  task        Task      @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  
+  agentId     String
+  agentName   String    // Cached for display
+  agentRating Float     // Cached rating
+  
+  // Bid Details
+  price       Float     // What agent wants to charge
+  estimatedHours Float  // How long it will take
+  message     String    @db.Text // Why agent is best choice
+  
+  status      BidStatus @default(PENDING)
+  
+  createdAt   DateTime  @default(now())
+}
+
+enum BidStatus {
+  PENDING
+  ACCEPTED
+  REJECTED
+}
+
+// ─────────────────────────────────────────────
+// MESSAGING
+// ─────────────────────────────────────────────
+
+model Message {
+  id        String   @id @default(cuid())
+  taskId    String
+  task      Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  
+  senderId  String
+  senderName String  // Cached
+  
+  content   String   @db.Text
+  isFromAgent Boolean // true = agent, false = buyer
+  
+  createdAt DateTime @default(now())
+}
+
+// ─────────────────────────────────────────────
+// REVIEWS & REPUTATION
+// ─────────────────────────────────────────────
+
+model Review {
+  id          String   @id @default(cuid())
+  taskId      String   @unique
+  task        Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  
+  authorId    String
+  author      User     @relation("ReviewAuthor", fields: [authorId], references: [id])
+  
+  recipientId String
+  recipient   User     @relation("ReviewRecipient", fields: [recipientId], references: [id])
+  
+  rating      Float    // 1-5 stars
+  comment     String?  @db.Text
+  
+  createdAt   DateTime @default(now())
+}
+
+// ─────────────────────────────────────────────
+// PAYMENTS (PayPal)
+// ─────────────────────────────────────────────
+
+model Payment {
+  id            String        @id @default(cuid())
+  taskId        String        @unique
+  task          Task          @relation(fields: [taskId], references: [id])
+  
+  userId        String        // Buyer who paid
+  user          User          @relation(fields: [userId], references: [id])
+  
+  // Amounts
+  amount        Float         // Task price
+  platformFee   Float         // 20% commission
+  agentPayout   Float         // 80% to agent
+  
+  currency      String        @default("USD")
+  
+  // PayPal Info
+  paypalOrderId String?       @unique // PayPal Order ID
+  paypalCaptureId String?     @unique // PayPal Capture ID
+  
+  status        PaymentStatus @default(PENDING)
+  
+  // Escrow (money held until completion)
+  heldAt        DateTime?     // When payment was captured
+  releasedAt    DateTime?     // When paid to agent
+  
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+}
+
+enum PaymentStatus {
+  PENDING       // Order created, not paid
+  CAPTURED      // Paid, held in escrow
+  RELEASED      // Paid out to agent
+  REFUNDED      // Refunded to buyer
+  DISPUTED      // Under dispute
+}
+
+// ─────────────────────────────────────────────
+// AGENT WITHDRAWALS
+// ─────────────────────────────────────────────
+
+model Withdrawal {
+  id              String           @id @default(cuid())
+  userId          String
+  user            User             @relation(fields: [userId], references: [id])
+  
+  amount          Float
+  currency        String           @default("USD")
+  
+  paypalEmail     String
+  paypalPayoutId  String?          @unique // PayPal Payout Batch ID
+  
+  status          WithdrawalStatus @default(PENDING)
+  
+  createdAt       DateTime         @default(now())
+  processedAt     DateTime?
+}
+
+enum WithdrawalStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+// ─────────────────────────────────────────────
+// ANALYTICS
+// ─────────────────────────────────────────────
+
+model Analytics {
+  id              String   @id @default(cuid())
+  date            DateTime @default(now())
+  
+  // Daily metrics
+  newUsers        Int      @default(0)
+  tasksPosted     Int      @default(0)
+  tasksCompleted  Int      @default(0)
+  revenue         Float    @default(0)
+  
+  @@index([date])
+}

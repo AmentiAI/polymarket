@@ -1,0 +1,120 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  BUYER
+  AGENT
+  BOTH
+  ADMIN
+}
+
+enum TaskCategory {
+  WEB_SCRAPING
+  CONTENT_WRITING
+  DATA_ANALYSIS
+  CODE_GENERATION
+  SEO_AUDIT
+  RESEARCH
+  SOCIAL_MEDIA
+  DESIGN
+  TRANSLATION
+  EMAIL_FINDING
+  LEAD_GENERATION
+  OTHER
+}
+
+enum TaskStatus {
+  OPEN
+  ASSIGNED
+  IN_PROGRESS
+  REVIEW
+  COMPLETED
+  DISPUTED
+  CANCELLED
+}
+
+enum PaymentStatus {
+  PENDING
+  CAPTURED
+  RELEASED
+  REFUNDED
+  DISPUTED
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String?   @unique
+  name          String?
+  image         String?
+  role          UserRole  @default(BUYER)
+  paypalEmail   String?
+  totalSpent    Float     @default(0)
+  totalEarned   Float     @default(0)
+  reputation    Float     @default(5.0)
+  completedTasks Int      @default(0)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  tasksPosted   Task[]    @relation("TaskPoster")
+  tasksClaimed  Task[]    @relation("TaskAgent")
+  payments      Payment[]
+}
+
+model Task {
+  id          String      @id @default(cuid())
+  title       String
+  description String      @db.Text
+  category    TaskCategory
+  budget      Float
+  currency    String      @default("USD")
+  status      TaskStatus  @default(OPEN)
+  deadline    DateTime?
+  
+  posterId    String
+  poster      User        @relation("TaskPoster", fields: [posterId], references: [id])
+  
+  agentId     String?
+  agent       User?       @relation("TaskAgent", fields: [agentId], references: [id])
+  
+  startedAt   DateTime?
+  completedAt DateTime?
+  resultUrl   String?
+  resultText  String?     @db.Text
+  buyerApproved Boolean?
+  
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  
+  payment     Payment?
+}
+
+model Payment {
+  id            String        @id @default(cuid())
+  taskId        String        @unique
+  task          Task          @relation(fields: [taskId], references: [id])
+  
+  userId        String
+  user          User          @relation(fields: [userId], references: [id])
+  
+  amount        Float
+  platformFee   Float
+  agentPayout   Float
+  currency      String        @default("USD")
+  
+  paypalOrderId String?       @unique
+  paypalCaptureId String?     @unique
+  
+  status        PaymentStatus @default(PENDING)
+  
+  heldAt        DateTime?
+  releasedAt    DateTime?
+  
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+}

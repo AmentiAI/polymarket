@@ -1,0 +1,104 @@
+{
+  "wallets": [
+    {
+      "index": 0,
+      "address": "4syxoDMsUeXtpNDEDsfQV6CMsAaF1TduHTeXiZnRperZ",
+      "private_key": "23Du1dic8jVsutyiHXyHeM9bEZuKMjoWMLJmqQx6u5Kit6hHH7LRNswdfzx3fZ1xwBrhsRsYtnXPCi513Rbe3awf"
+    },
+    {
+      "index": 1,
+      "address": "9goNC8ifcJRLgQdpDfWq4G3hZ57eYRDyhCGy7FYLgpN3",
+      "private_key": "5HPqYmYFXMe14SyjPTh8SvCcE3Ne9p4qQDXU6TAN4hCgCR2uk36DkkSSFBkX1dxTfudMjdZ87r6tKP6VBQEEgKYs"
+    },
+    {
+      "index": 2,
+      "address": "G2WgLHPAtjvP9bXuE5XKAncQSYwVvWYqB7E8iS3w2uZN",
+      "private_key": "2pGTaBTqjfKFXd8X4WFTrRGs6oT9NaRxLGNCxWjHTLMYETBUbVbsernmm9kasK3A2GQSWuvL5BgYTjcieLkEbgR2"
+    },
+    {
+      "index": 3,
+      "address": "BLkDALii8MceS2V722ibApLGkcUdZEqspMVcSjVXcHKq",
+      "private_key": "36PNj3ynUQ99P1M3wajRKwBR48A3qXxLnPy3cnJ6QsB9BcZcv1qLFJ1e2TsAJfdYfvzRwLQ3iEfRnShqsba8nueK"
+    },
+    {
+      "index": 4,
+      "address": "9h7dtANBBsLdTfdATx44nsPYaeL4hkr2dydiPdA97S2S",
+      "private_key": "3ytoS6Q8RUHmg38H7rvgRQbKikNcVoZJ6MH8CokbSVe7vJfpoecP6osqrXvXN5DfyM6mrn6PmsnPNrfiNziYsJ78"
+    },
+    {
+      "index": 5,
+      "address": "2ATFKHkcPcDNZU92zMvgYqJcHM4znf3rzc4cG92VtbrX",
+      "private_key": "DhQMmEZJ7aqVd58JTSzpTWLKezYQeDhuNu8JyrX3mpYXEeSGU2VTEMBLjLTTv2MSzoBhqhoseQxqDMAN9BfkCo9"
+    },
+    {
+      "index": 6,
+      "address": "vpr8BwwbTvYHP4HnyV1R8AnNCpj8sLLYTwy6QNEHxtg",
+      "private_key": "3NJ178VqZAykM6Wp5a6tS4jxstXfqFjVDZGxiU4cXsEQDFwtoihN7YnDNipu5ZKmQ1DC9mWyuD8GQKnUXT51WhJY"
+    },
+    {
+      "index": 7,
+      "address": "B6tc3sidih9pEtLKQB3gjbbq3xhvtkLvBWdZAEWJYJJk",
+      "private_key": "1ifaYZoN8e79NFU56Qih8JzDggtGTP6Gs4TSm3LjHncZrYrp4HmseCznkgVm8daSDuh1gPCpBk5QcwSeiA4qTVa"
+    },
+    {
+      "index": 8,
+      "address": "51UL4MLLpHUeEgWnLRi6EHLvby8y87F19CgPqeqivz6Z",
+      "private_key": "29ZJSgA2GvTG6mjG57YvbxfvKK7gAxi2XnNLByBXubkaubYRQ3a23oKrcduftLEteUWY3A3e8ei9vxsw7J3uaJzh"
+    },
+    {
+      "index": 9,
+      "address": "55LpetNeHCQu2ZGVs6E3TmF9X76Df1ug9WzSnPpQ6B5D",
+      "private_key": "A3p5JCfTdknNaFCgmHGGAYv8wUGWnoAY1RGfo99osEQkxHKBkgm66YVkxtkqyAFR3RBZp7xtaqFDydXk3hLoQLB"
+    },
+    {
+      "index": 10,
+      "address": "HNHAvNoV2J6YPFCQ3nkohSZ6Ln4dJYUJSWdesC7DHGPZ",
+      "private_key": "2WXQF3wKhTzPF7uirbsVUD7XuXoLNduQPVRSgMiXLxsNyrNXM8Coun9PetsnTkzqjAYamxkJrv1yvmTsrTotEKR9"
+    },
+    {
+      "index": 11,
+      "address": "B2c5KF5TF4AS6xLb3XiCxz2RckYed7HvQ8EWAVkZr2Aq",
+      "private_key": "2cKBtWQjZAX4R9dUzYVQskoqpGCJPMTGzjFEwN3vF2W9q1AjGDUHbFZEHbwvAgAhYrJQ1AEESYMkwfHdt8GPiqrd"
+    },
+    {
+      "index": 12,
+      "address": "Hrhbgkw1vFdhvtfBLmk7TtXs7X52itUHFTs2TVvYSiwp",
+      "private_key": "3BUsVdo1jUz5nmFFxaBSteH8KgudrD93FjK4hsmvG9DNV7LRZUJN2mLSkMRBu4awhBgP3Z4784KxLoF8eSYZd9Ui"
+    },
+    {
+      "index": 13,
+      "address": "Go4YWduxUxvBMmQETf7cMYC2RhzLX8oqJCvS6wcQsDNb",
+      "private_key": "2Kb831CDgYZTTYVP6cge9oWSvtf2vmUz4fZYYAympP8wsBV8ZebaBwM3F9xAZeKMQucxa5vzzHu2oWjTg4DQuVVV"
+    },
+    {
+      "index": 14,
+      "address": "9cvbxJuDGehCrnnMt33o5s6JkapwDXDs2fFeyeJwr44Q",
+      "private_key": "LVBBSqdEmVDk1V59eKdMJBXA1dsHPBTjNHMfbVvneXBMZ8zMpP3LzVdyt86ASpJNyknt7RcC9T3zvvFEYQX3nun"
+    },
+    {
+      "index": 15,
+      "address": "FLwad9xnoRVnUAFs6wMes7HNwzVb9jhgCCt4rffRoHwE",
+      "private_key": "5fo7U9uGtVXBQektrxEZzAdCdnBXpgTLXowfWFYCkdQNny7BSdiYDRWbUf8te2215BT4egsUSiTaVCj5bi7WkBcU"
+    },
+    {
+      "index": 16,
+      "address": "ExAbBd64zAA4KhfUzRdGdTdKYwSzmTZhXcezegNTQTbq",
+      "private_key": "3aaVZTG28QhP4hGggoS8QU799mpc764pnAK2WK6mT86nb6BgYc6mDHqumiHP6ehBFd8LwCTTqxwcTzNKM4bFMTx7"
+    },
+    {
+      "index": 17,
+      "address": "J5ScXctZg9WHtgbxh4YRkke6NWVxdbdLPngfa2BjTJNd",
+      "private_key": "4C84EaTghwySKHVvHAJo77ADyDVFhJeJ36npG9zxRLX2goB4fffuVdsezGJ87okynEsSeX4M8LwxUj7vvnSvB5d3"
+    },
+    {
+      "index": 18,
+      "address": "DfdATyyH95CNZ8y7Ha6rze7U2SsZUvMhMqh1Rh5Xfgyy",
+      "private_key": "4AsHWacSkHFQa959DDK22FRW2YF7J9uRPQaBkqAhCKfJzcwyJ1tQYJqa3yZdHfx8yELfbmR9JDjW9JjpBRjfewHM"
+    },
+    {
+      "index": 19,
+      "address": "AmqWeoUDucX5UcE5MFc3GmaKfKAjqsd8JLGQTZoLbKfo",
+      "private_key": "2mKQwdkEGfY6CfM9cT1EQGs4MVAXtzJKiM4CWTUmoY9dmuW4CJHrtyD2oEifLeyWrEffbiht9w52aE781Qr7oNtZ"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+CONFIRMED TOKEN HOLDERS
+======================
+Token: 7JVEqoq1uZkGHa2DuVMsc22TyiDNZyCoGkkS3RXXpump
+
+W00 - 1,065,154 tokens
+Address: 3QHkG2h84pyyqgTyYTu6y3ckZi5ynpxbSqKEV5poLaZ6
+Private Key: n7uN1rXUtwBuWfuE4j1hpCwa19YCupuUCSWKRzogJuwUQk6SDArrEDy78MeCZPvem7P5GuQHKJkG157nwTA57Hz
+
+W01 - 1,534,866 tokens
+Address: EHcUL53zmYExkZfLjSseQftokCYQ8c8ZjScqQqJ9uYsn
+Private Key: 4uEjsRkek6fdtfuJEkkHa2T9EXnt62L6P3CCVbX3mFyPSYEn5Qv6fz7YETMhCnQWhmVkJfQ47eEq48upXBL7BM3A
+
+W02 - 1,162,140 tokens
+Address: HQijx6bgjUTkEbr7QUsfuoqYSXsdn6yJ8y2VzE51bpst
+Private Key: 2VfZitJgon7CEPM9h5VMDP7aJsBXqypEsWN96cPgoUKrzJb1Pz9B8N6fcincCTDVxocnaRN7f1j9kB4Kyn14pETt
+
+W03 - 1,079,725 tokens
+Address: 7eW2fyDkYjKSyMBNDZmJnwoowmnvgT8ZC92egqcF5csy
+Private Key: 4R531zAqkGhGpwqR2SdP6EbgzmZth4nUAhZrXVrrS8tedoMSqLVhtX7hcdrb67xNrfKxHwZZZQHPvGRL9moZYGRu
+
+W04 - 714,001 tokens
+Address: 8LBCAjnQBY4xtLewHnPbxTnPji9XzTALPxr9346rgRD1
+Private Key: DgpqvFX4vUccy2YD8bAhtxJ3vCts8UiiryP2jbQcTng5kiUCtoyFVnzTxYRmER3xuoWugzweHSZVVHQZG4YBFJo
+
+W05 - 3,605,553 tokens (LARGEST HOLDER!)
+Address: 5wmhtWaPxaqN1nBk5LgA1M1BYX8zBMk9xwpBxXY7r8Cn
+Private Key: zTXjX1H44n5dsRM7q5Yw7zShrRFvLgxcQHpQn81DnHa8vD4bP7noSmfL66yXGhDJv5Ti9EyBg45G8bXUG5KKC94
+
+TOTAL CONFIRMED: 9,161,439 tokens across 6 wallets
+
+W07-W19: Still checking (RPC rate limits)
